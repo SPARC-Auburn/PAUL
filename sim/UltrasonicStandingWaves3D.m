@@ -20,7 +20,7 @@ speedParticle = speedAir * 1.8;     %I think this is a reasonably good estimate 
 radiusParticle = lambda / 4;
 volumeParticle = 4 * pi / 3 * radiusParticle^3;
 densityAir = 1.204;         %kg/m^3
-densityParticle = 1050;
+densityParticle = 30;
 K1 = volumeParticle / 4 * (1/(speedAir^2 * densityAir) - 1/(speedParticle^2 * densityParticle));
 K2 = 3 * volumeParticle / 4 * (densityAir - densityParticle) / (omega^2 * densityAir * (densityAir + 2 * densityParticle));
 
@@ -29,7 +29,8 @@ spacingY = (upperCorner(2) - lowerCorner(2)) / (gridLength - 1);
 spacingZ = (upperCorner(3) - lowerCorner(3)) / (gridLength - 1);
 
 levitationPos = [0, 0, 0];
-emitters = createEmitterPlane(7, 7, .02, -.4, true);
+emitters = createEmitterPlane(8, 8, .02, -.1, true);
+%emitters = createEmitterPlane(8, 8, .02, -.1, false);
 %emitters = createSingleEmitter(0, false);
 emitters = createStandingWave(emitters, levitationPos);
 %emitters = createOptimizerTrap(emitters, levitationPos, 1, 1, 1);
@@ -267,6 +268,9 @@ function emitters = focusToPoint(emitters, levitationPos)
         emitter = emitters(i);
         dist = sqrt((emitter.pos(1) - levitationPos(1)).^2 + (emitter.pos(2) - levitationPos(2)).^2 + (emitter.pos(3) - levitationPos(3)).^2);
         emitters(i).phase = wrapTo2Pi(k * dist);
+		if calcEmitterMagnitude(emitter, levitationPos(1), levitationPos(2), levitationPos(3)) < 0
+			emitters(i).phase = wrapTo2Pi(emitters(i).phase + pi);		%The bessel function can invert the pressure wave at certain angles. This needs to be tested experimentally - it makes a big difference in performance in certain situations.
+		end
     end
 end
 
@@ -320,7 +324,7 @@ function printLevitationStats()
 	fprintf("Gor'kov potential: %e\n", calcGorkov(emitters, levitationPos(1), levitationPos(2), levitationPos(3)));
 	[laplacian, Uxx, Uyy, Uzz] = calcLaplacian(emitters, levitationPos(1), levitationPos(2), levitationPos(3));
 	fprintf("Laplacian: %e (x: %e, y: %e, z: %e)\n", laplacian, Uxx, Uyy, Uzz);
-	fprintf("Force of gravity on sphere: %f N\n", 9.81 * volumeParticle * densityParticle);
+	fprintf("Force of gravity on sphere: %f µN\n", 9.81 * volumeParticle * densityParticle * 1e6);
 end
 
 %Returns emitter array with phases replaced. Phases should be a column vector. Phases can have fewer elements than emitters
