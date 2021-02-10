@@ -1,0 +1,1559 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Ultrasonic~Library:XL62783 U1
+U 1 1 6005127B
+P 1550 1800
+F 0 "U1" H 1550 2425 50  0000 C CNN
+F 1 "XL62783" H 1550 2334 50  0000 C CNN
+F 2 "Ultrasonic Emitters:SOIC-18W_7.5x11.6mm_P1.27mm_Weird" H 1550 1800 50  0001 C CNN
+F 3 "" H 1550 1800 50  0001 C CNN
+	1    1550 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 60053B74
+P 1150 2350
+F 0 "C3" H 1265 2396 50  0000 L CNN
+F 1 ".1uF" H 1265 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1188 2200 50  0001 C CNN
+F 3 "~" H 1150 2350 50  0001 C CNN
+	1    1150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Ultrasound LS1
+U 1 1 600558CD
+P 3250 1200
+F 0 "LS1" H 3424 1196 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 3424 1105 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 3215 1150 50  0001 C CNN
+F 3 "~" H 3215 1150 50  0001 C CNN
+	1    3250 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Ultrasound LS5
+U 1 1 60057BEE
+P 3950 1650
+F 0 "LS5" H 4124 1646 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 4124 1555 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 3915 1600 50  0001 C CNN
+F 3 "~" H 3915 1600 50  0001 C CNN
+	1    3950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Ultrasound LS2
+U 1 1 600584B0
+P 3250 2050
+F 0 "LS2" H 3424 2046 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 3424 1955 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 3215 2000 50  0001 C CNN
+F 3 "~" H 3215 2000 50  0001 C CNN
+	1    3250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Ultrasound LS6
+U 1 1 600589E4
+P 3950 2500
+F 0 "LS6" H 4124 2496 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 4124 2405 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 3915 2450 50  0001 C CNN
+F 3 "~" H 3915 2450 50  0001 C CNN
+	1    3950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Ultrasound LS3
+U 1 1 60058DC9
+P 3250 2900
+F 0 "LS3" H 3424 2896 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 3424 2805 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 3215 2850 50  0001 C CNN
+F 3 "~" H 3215 2850 50  0001 C CNN
+	1    3250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Ultrasound LS7
+U 1 1 600593A1
+P 3950 3350
+F 0 "LS7" H 4124 3346 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 4124 3255 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 3915 3300 50  0001 C CNN
+F 3 "~" H 3915 3300 50  0001 C CNN
+	1    3950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Ultrasound LS4
+U 1 1 60059943
+P 3250 3800
+F 0 "LS4" H 3424 3796 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 3424 3705 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 3215 3750 50  0001 C CNN
+F 3 "~" H 3215 3750 50  0001 C CNN
+	1    3250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Ultrasound LS8
+U 1 1 6005A02A
+P 3950 4250
+F 0 "LS8" H 4124 4246 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 4124 4155 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 3915 4200 50  0001 C CNN
+F 3 "~" H 3915 4200 50  0001 C CNN
+	1    3950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 6009D6CC
+P 1150 2500
+F 0 "#PWR03" H 1150 2250 50  0001 C CNN
+F 1 "GND" H 1155 2327 50  0000 C CNN
+F 2 "" H 1150 2500 50  0001 C CNN
+F 3 "" H 1150 2500 50  0001 C CNN
+	1    1150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 600A5014
+P 3000 1350
+F 0 "#PWR07" H 3000 1100 50  0001 C CNN
+F 1 "GND" H 3005 1177 50  0000 C CNN
+F 2 "" H 3000 1350 50  0001 C CNN
+F 3 "" H 3000 1350 50  0001 C CNN
+	1    3000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 600A66AC
+P 3700 1800
+F 0 "#PWR011" H 3700 1550 50  0001 C CNN
+F 1 "GND" H 3705 1627 50  0000 C CNN
+F 2 "" H 3700 1800 50  0001 C CNN
+F 3 "" H 3700 1800 50  0001 C CNN
+	1    3700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 600A6C3D
+P 3000 2200
+F 0 "#PWR08" H 3000 1950 50  0001 C CNN
+F 1 "GND" H 3005 2027 50  0000 C CNN
+F 2 "" H 3000 2200 50  0001 C CNN
+F 3 "" H 3000 2200 50  0001 C CNN
+	1    3000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 600A70FA
+P 3700 2650
+F 0 "#PWR012" H 3700 2400 50  0001 C CNN
+F 1 "GND" H 3705 2477 50  0000 C CNN
+F 2 "" H 3700 2650 50  0001 C CNN
+F 3 "" H 3700 2650 50  0001 C CNN
+	1    3700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 600A762C
+P 3700 3500
+F 0 "#PWR013" H 3700 3250 50  0001 C CNN
+F 1 "GND" H 3705 3327 50  0000 C CNN
+F 2 "" H 3700 3500 50  0001 C CNN
+F 3 "" H 3700 3500 50  0001 C CNN
+	1    3700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 600A7BCB
+P 3000 3050
+F 0 "#PWR09" H 3000 2800 50  0001 C CNN
+F 1 "GND" H 3005 2877 50  0000 C CNN
+F 2 "" H 3000 3050 50  0001 C CNN
+F 3 "" H 3000 3050 50  0001 C CNN
+	1    3000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 600A80F8
+P 3000 3950
+F 0 "#PWR010" H 3000 3700 50  0001 C CNN
+F 1 "GND" H 3005 3777 50  0000 C CNN
+F 2 "" H 3000 3950 50  0001 C CNN
+F 3 "" H 3000 3950 50  0001 C CNN
+	1    3000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 600A8767
+P 3700 4400
+F 0 "#PWR014" H 3700 4150 50  0001 C CNN
+F 1 "GND" H 3705 4227 50  0000 C CNN
+F 2 "" H 3700 4400 50  0001 C CNN
+F 3 "" H 3700 4400 50  0001 C CNN
+	1    3700 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1400 2450 1200
+Wire Wire Line
+	2500 1500 2500 1650
+Wire Wire Line
+	2550 1600 2550 2050
+Wire Wire Line
+	3750 1750 3700 1750
+Wire Wire Line
+	3700 1750 3700 1800
+Wire Wire Line
+	3750 2600 3700 2600
+Wire Wire Line
+	3700 2600 3700 2650
+Wire Wire Line
+	3050 2150 3000 2150
+Wire Wire Line
+	3000 2150 3000 2200
+Wire Wire Line
+	3050 3000 3000 3000
+Wire Wire Line
+	3000 3000 3000 3050
+Wire Wire Line
+	3750 3450 3700 3450
+Wire Wire Line
+	3700 3450 3700 3500
+Wire Wire Line
+	3750 4350 3700 4350
+Wire Wire Line
+	3700 4350 3700 4400
+Wire Wire Line
+	3050 3900 3000 3900
+Wire Wire Line
+	3000 3900 3000 3950
+Wire Wire Line
+	2600 1700 2600 2500
+Connection ~ 2600 2500
+Wire Wire Line
+	2650 1800 2650 2900
+Connection ~ 2650 2900
+Wire Wire Line
+	2700 1900 2700 3350
+Connection ~ 2550 2050
+Connection ~ 2450 1400
+Connection ~ 2500 1650
+Wire Wire Line
+	1850 3600 1900 3600
+Wire Wire Line
+	1850 3500 2100 3500
+Wire Wire Line
+	1850 3400 1900 3400
+Wire Wire Line
+	1850 3200 1900 3200
+Wire Wire Line
+	1850 3300 2100 3300
+$Comp
+L power:GND #PWR04
+U 1 1 6009DE9D
+P 1150 4300
+F 0 "#PWR04" H 1150 4050 50  0001 C CNN
+F 1 "GND" H 1155 4127 50  0000 C CNN
+F 2 "" H 1150 4300 50  0001 C CNN
+F 3 "" H 1150 4300 50  0001 C CNN
+	1    1150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 600542D5
+P 1150 4150
+F 0 "C4" H 1265 4196 50  0000 L CNN
+F 1 ".1uF" H 1265 4105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1188 4000 50  0001 C CNN
+F 3 "~" H 1150 4150 50  0001 C CNN
+	1    1150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ultrasonic~Library:XL62083 U2
+U 1 1 60051ACC
+P 1550 3600
+F 0 "U2" H 1550 4225 50  0000 C CNN
+F 1 "XL62083" H 1550 4134 50  0000 C CNN
+F 2 "Ultrasonic Emitters:SOIC-18W_7.5x11.6mm_P1.27mm_Weird" H 1550 3600 50  0001 C CNN
+F 3 "" H 1550 3600 50  0001 C CNN
+	1    1550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2100 2800 3900
+Wire Wire Line
+	2750 2000 2750 3800
+Wire Wire Line
+	2450 1400 2450 3200
+Wire Wire Line
+	2500 1650 2500 3300
+Wire Wire Line
+	2550 2050 2550 3400
+Wire Wire Line
+	2600 2500 2600 3500
+Wire Wire Line
+	2650 2900 2650 3600
+Wire Wire Line
+	1850 3700 2100 3700
+Wire Wire Line
+	2700 3700 2700 3350
+Connection ~ 2700 3350
+Wire Wire Line
+	1850 3800 1900 3800
+Connection ~ 2750 3800
+Wire Wire Line
+	1850 3900 2100 3900
+$Comp
+L power:GND #PWR06
+U 1 1 600D953F
+P 1900 4050
+F 0 "#PWR06" H 1900 3800 50  0001 C CNN
+F 1 "GND" H 1905 3877 50  0000 C CNN
+F 2 "" H 1900 4050 50  0001 C CNN
+F 3 "" H 1900 4050 50  0001 C CNN
+	1    1900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 600D9839
+P 1900 2250
+F 0 "#PWR05" H 1900 2000 50  0001 C CNN
+F 1 "GND" H 1905 2077 50  0000 C CNN
+F 2 "" H 1900 2250 50  0001 C CNN
+F 3 "" H 1900 2250 50  0001 C CNN
+	1    1900 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2200 1150 2200
+Wire Wire Line
+	1250 4000 1150 4000
+Wire Wire Line
+	1850 2200 1900 2200
+Wire Wire Line
+	1900 2200 1900 2250
+Wire Wire Line
+	1850 4000 1900 4000
+Wire Wire Line
+	1900 4000 1900 4050
+$Comp
+L Device:C C1
+U 1 1 600E19E0
+P 700 2350
+F 0 "C1" H 815 2396 50  0000 L CNN
+F 1 ".01uF" H 815 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 738 2200 50  0001 C CNN
+F 3 "~" H 700 2350 50  0001 C CNN
+	1    700  2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1350 3000 1300
+Wire Wire Line
+	3000 1300 3050 1300
+$Comp
+L Device:C C2
+U 1 1 600E831B
+P 700 4150
+F 0 "C2" H 815 4196 50  0000 L CNN
+F 1 ".01uF" H 815 4105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 738 4000 50  0001 C CNN
+F 3 "~" H 700 4150 50  0001 C CNN
+	1    700  4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  4000 900  4000
+Connection ~ 1150 4000
+Wire Wire Line
+	700  4300 1150 4300
+Connection ~ 1150 4300
+Wire Wire Line
+	700  2500 1150 2500
+Connection ~ 1150 2500
+Wire Wire Line
+	700  2200 900  2200
+Connection ~ 1150 2200
+$Comp
+L Connector_Generic:Conn_02x17_Top_Bottom J1
+U 1 1 600F2E72
+P 5800 3000
+F 0 "J1" H 5850 4017 50  0000 C CNN
+F 1 "Conn_02x17_Top_Bottom" H 5850 3926 50  0000 C CNN
+F 2 "Ultrasonic Emitters:PinHeader_2x17_P2.54mm_Vertical_SMD_Wide" H 5800 3000 50  0001 C CNN
+F 3 "~" H 5800 3000 50  0001 C CNN
+	1    5800 3000
+	1    0    0    -1  
+$EndComp
+Text Label 1250 1400 2    50   ~ 0
+T1+
+Text Label 5600 2200 2    50   ~ 0
+T1+
+Text Label 5600 2300 2    50   ~ 0
+T2+
+Text Label 1250 1500 2    50   ~ 0
+T2+
+Text Label 5600 2400 2    50   ~ 0
+T3+
+Text Label 1250 1600 2    50   ~ 0
+T3+
+Text Label 5600 2500 2    50   ~ 0
+T4+
+Text Label 1250 1700 2    50   ~ 0
+T4+
+Text Label 5600 2600 2    50   ~ 0
+T5+
+Text Label 1250 1800 2    50   ~ 0
+T5+
+Text Label 5600 2700 2    50   ~ 0
+T6+
+Text Label 1250 1900 2    50   ~ 0
+T6+
+Text Label 5600 2800 2    50   ~ 0
+T7+
+Text Label 1250 2000 2    50   ~ 0
+T7+
+Text Label 5600 2900 2    50   ~ 0
+T8+
+Text Label 1250 2100 2    50   ~ 0
+T8+
+Text Label 5600 3000 2    50   ~ 0
+T1-
+Text Label 1250 3200 2    50   ~ 0
+T1-
+Text Label 5600 3100 2    50   ~ 0
+T2-
+Text Label 1250 3300 2    50   ~ 0
+T2-
+Text Label 5600 3200 2    50   ~ 0
+T3-
+Text Label 1250 3400 2    50   ~ 0
+T3-
+Text Label 5600 3300 2    50   ~ 0
+T4-
+Text Label 1250 3500 2    50   ~ 0
+T4-
+Text Label 5600 3400 2    50   ~ 0
+T5-
+Text Label 1250 3600 2    50   ~ 0
+T5-
+Text Label 5600 3500 2    50   ~ 0
+T6-
+Text Label 1250 3700 2    50   ~ 0
+T6-
+Text Label 5600 3600 2    50   ~ 0
+T7-
+Text Label 1250 3800 2    50   ~ 0
+T7-
+Text Label 5600 3700 2    50   ~ 0
+T8-
+Text Label 1250 3900 2    50   ~ 0
+T8-
+$Comp
+L power:VCC #PWR02
+U 1 1 601032E5
+P 900 4000
+F 0 "#PWR02" H 900 3850 50  0001 C CNN
+F 1 "VCC" H 915 4173 50  0000 C CNN
+F 2 "" H 900 4000 50  0001 C CNN
+F 3 "" H 900 4000 50  0001 C CNN
+	1    900  4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 900  4000
+Wire Wire Line
+	900  4000 1150 4000
+$Comp
+L power:VCC #PWR01
+U 1 1 601041FF
+P 900 2200
+F 0 "#PWR01" H 900 2050 50  0001 C CNN
+F 1 "VCC" H 915 2373 50  0000 C CNN
+F 2 "" H 900 2200 50  0001 C CNN
+F 3 "" H 900 2200 50  0001 C CNN
+	1    900  2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 900  2200
+Wire Wire Line
+	900  2200 1150 2200
+Wire Wire Line
+	5900 5150 5900 5100
+$Comp
+L power:GND #PWR016
+U 1 1 60101848
+P 5900 5150
+F 0 "#PWR016" H 5900 4900 50  0001 C CNN
+F 1 "GND" H 5905 4977 50  0000 C CNN
+F 2 "" H 5900 5150 50  0001 C CNN
+F 3 "" H 5900 5150 50  0001 C CNN
+	1    5900 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 600FE012
+P 6100 5100
+F 0 "J3" H 6180 5142 50  0000 L CNN
+F 1 "Conn_01x01" H 6180 5051 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 6100 5100 50  0001 C CNN
+F 3 "~" H 6100 5100 50  0001 C CNN
+	1    6100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR015
+U 1 1 601029AB
+P 5900 4900
+F 0 "#PWR015" H 5900 4750 50  0001 C CNN
+F 1 "VCC" H 5915 5073 50  0000 C CNN
+F 2 "" H 5900 4900 50  0001 C CNN
+F 3 "" H 5900 4900 50  0001 C CNN
+	1    5900 4900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6100 3800
+NoConn ~ 5600 3800
+$Comp
+L Ultrasonic~Library:XL62783 U3
+U 1 1 60142E9B
+P 7650 1800
+F 0 "U3" H 7650 2425 50  0000 C CNN
+F 1 "XL62783" H 7650 2334 50  0000 C CNN
+F 2 "Ultrasonic Emitters:SOIC-18W_7.5x11.6mm_P1.27mm_Weird" H 7650 1800 50  0001 C CNN
+F 3 "" H 7650 1800 50  0001 C CNN
+	1    7650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 601432A9
+P 7250 2350
+F 0 "C7" H 7365 2396 50  0000 L CNN
+F 1 ".1uF" H 7365 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7288 2200 50  0001 C CNN
+F 3 "~" H 7250 2350 50  0001 C CNN
+	1    7250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 60143353
+P 7250 2500
+F 0 "#PWR019" H 7250 2250 50  0001 C CNN
+F 1 "GND" H 7255 2327 50  0000 C CNN
+F 2 "" H 7250 2500 50  0001 C CNN
+F 3 "" H 7250 2500 50  0001 C CNN
+	1    7250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 601433E3
+P 7250 4300
+F 0 "#PWR020" H 7250 4050 50  0001 C CNN
+F 1 "GND" H 7255 4127 50  0000 C CNN
+F 2 "" H 7250 4300 50  0001 C CNN
+F 3 "" H 7250 4300 50  0001 C CNN
+	1    7250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 601433ED
+P 7250 4150
+F 0 "C8" H 7365 4196 50  0000 L CNN
+F 1 ".1uF" H 7365 4105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7288 4000 50  0001 C CNN
+F 3 "~" H 7250 4150 50  0001 C CNN
+	1    7250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ultrasonic~Library:XL62083 U4
+U 1 1 601433F7
+P 7650 3600
+F 0 "U4" H 7650 4225 50  0000 C CNN
+F 1 "XL62083" H 7650 4134 50  0000 C CNN
+F 2 "Ultrasonic Emitters:SOIC-18W_7.5x11.6mm_P1.27mm_Weird" H 7650 3600 50  0001 C CNN
+F 3 "" H 7650 3600 50  0001 C CNN
+	1    7650 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 2200 7250 2200
+Wire Wire Line
+	7350 4000 7250 4000
+Wire Wire Line
+	7950 2200 8000 2200
+Wire Wire Line
+	8000 2200 8000 2250
+Wire Wire Line
+	7950 4000 8000 4000
+Wire Wire Line
+	8000 4000 8000 4050
+$Comp
+L Device:C C5
+U 1 1 6014342A
+P 6800 2350
+F 0 "C5" H 6915 2396 50  0000 L CNN
+F 1 ".01uF" H 6915 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6838 2200 50  0001 C CNN
+F 3 "~" H 6800 2350 50  0001 C CNN
+	1    6800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 60143436
+P 6800 4150
+F 0 "C6" H 6915 4196 50  0000 L CNN
+F 1 ".01uF" H 6915 4105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6838 4000 50  0001 C CNN
+F 3 "~" H 6800 4150 50  0001 C CNN
+	1    6800 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4000 7000 4000
+Connection ~ 7250 4000
+Wire Wire Line
+	6800 4300 7250 4300
+Connection ~ 7250 4300
+Wire Wire Line
+	6800 2500 7250 2500
+Connection ~ 7250 2500
+Wire Wire Line
+	6800 2200 7000 2200
+Connection ~ 7250 2200
+Text Label 7350 1400 2    50   ~ 0
+T9+
+Text Label 7350 1500 2    50   ~ 0
+T10+
+Text Label 7350 1600 2    50   ~ 0
+T11+
+Text Label 7350 1700 2    50   ~ 0
+T12+
+Text Label 7350 1800 2    50   ~ 0
+T13+
+Text Label 7350 1900 2    50   ~ 0
+T14+
+Text Label 7350 2000 2    50   ~ 0
+T15+
+Text Label 7350 2100 2    50   ~ 0
+T16+
+Text Label 7350 3200 2    50   ~ 0
+T9-
+Text Label 7350 3300 2    50   ~ 0
+T10-
+Text Label 7350 3400 2    50   ~ 0
+T11-
+Text Label 7350 3500 2    50   ~ 0
+T12-
+Text Label 7350 3600 2    50   ~ 0
+T13-
+Text Label 7350 3700 2    50   ~ 0
+T14-
+Text Label 7350 3800 2    50   ~ 0
+T15-
+Text Label 7350 3900 2    50   ~ 0
+T16-
+$Comp
+L power:VCC #PWR018
+U 1 1 60143458
+P 7000 4000
+F 0 "#PWR018" H 7000 3850 50  0001 C CNN
+F 1 "VCC" H 7015 4173 50  0000 C CNN
+F 2 "" H 7000 4000 50  0001 C CNN
+F 3 "" H 7000 4000 50  0001 C CNN
+	1    7000 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 4000
+Wire Wire Line
+	7000 4000 7250 4000
+$Comp
+L power:VCC #PWR017
+U 1 1 60143464
+P 7000 2200
+F 0 "#PWR017" H 7000 2050 50  0001 C CNN
+F 1 "VCC" H 7015 2373 50  0000 C CNN
+F 2 "" H 7000 2200 50  0001 C CNN
+F 3 "" H 7000 2200 50  0001 C CNN
+	1    7000 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 2200
+Wire Wire Line
+	7000 2200 7250 2200
+Text Label 6100 2200 0    50   ~ 0
+T9+
+Text Label 6100 2300 0    50   ~ 0
+T10+
+Text Label 6100 2400 0    50   ~ 0
+T11+
+Text Label 6100 2500 0    50   ~ 0
+T12+
+Text Label 6100 2600 0    50   ~ 0
+T13+
+Text Label 6100 2700 0    50   ~ 0
+T14+
+Text Label 6100 2800 0    50   ~ 0
+T15+
+Text Label 6100 2900 0    50   ~ 0
+T16+
+Text Label 6100 3000 0    50   ~ 0
+T9-
+Text Label 6100 3100 0    50   ~ 0
+T10-
+Text Label 6100 3200 0    50   ~ 0
+T11-
+Text Label 6100 3300 0    50   ~ 0
+T12-
+Text Label 6100 3400 0    50   ~ 0
+T13-
+Text Label 6100 3500 0    50   ~ 0
+T14-
+Text Label 6100 3600 0    50   ~ 0
+T15-
+Text Label 6100 3700 0    50   ~ 0
+T16-
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 602597E1
+P 5600 4900
+F 0 "#FLG01" H 5600 4975 50  0001 C CNN
+F 1 "PWR_FLAG" H 5600 5073 50  0000 C CNN
+F 2 "" H 5600 4900 50  0001 C CNN
+F 3 "~" H 5600 4900 50  0001 C CNN
+	1    5600 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4900 5900 4900
+Connection ~ 5900 4900
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 602672E1
+P 5600 5100
+F 0 "#FLG02" H 5600 5175 50  0001 C CNN
+F 1 "PWR_FLAG" H 5600 5273 50  0000 C CNN
+F 2 "" H 5600 5100 50  0001 C CNN
+F 3 "~" H 5600 5100 50  0001 C CNN
+	1    5600 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5100 5900 5100
+Connection ~ 5900 5100
+Wire Wire Line
+	1850 2100 2100 2100
+Wire Wire Line
+	2400 2100 2800 2100
+$Comp
+L Device:R_US R12
+U 1 1 60080FD8
+P 2250 2100
+F 0 "R12" V 2045 2100 50  0000 C CNN
+F 1 "620" V 2136 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2290 2090 50  0001 C CNN
+F 3 "~" H 2250 2100 50  0001 C CNN
+	1    2250 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 2000 1900 2000
+Wire Wire Line
+	2200 2000 2750 2000
+$Comp
+L Device:R_US R4
+U 1 1 60085DF6
+P 2050 2000
+F 0 "R4" V 1845 2000 50  0000 C CNN
+F 1 "620" V 1936 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2090 1990 50  0001 C CNN
+F 3 "~" H 2050 2000 50  0001 C CNN
+	1    2050 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 1900 2100 1900
+Wire Wire Line
+	2400 1900 2700 1900
+$Comp
+L Device:R_US R11
+U 1 1 60080FCE
+P 2250 1900
+F 0 "R11" V 2045 1900 50  0000 C CNN
+F 1 "620" V 2136 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2290 1890 50  0001 C CNN
+F 3 "~" H 2250 1900 50  0001 C CNN
+	1    2250 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 1800 1900 1800
+Wire Wire Line
+	2200 1800 2650 1800
+$Comp
+L Device:R_US R3
+U 1 1 60085DEC
+P 2050 1800
+F 0 "R3" V 1845 1800 50  0000 C CNN
+F 1 "620" V 1936 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2090 1790 50  0001 C CNN
+F 3 "~" H 2050 1800 50  0001 C CNN
+	1    2050 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 1700 2100 1700
+Wire Wire Line
+	2400 1700 2600 1700
+$Comp
+L Device:R_US R10
+U 1 1 60080FC4
+P 2250 1700
+F 0 "R10" V 2045 1700 50  0000 C CNN
+F 1 "620" V 2136 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2290 1690 50  0001 C CNN
+F 3 "~" H 2250 1700 50  0001 C CNN
+	1    2250 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 1600 1900 1600
+Wire Wire Line
+	2200 1600 2550 1600
+$Comp
+L Device:R_US R2
+U 1 1 60085DE2
+P 2050 1600
+F 0 "R2" V 1845 1600 50  0000 C CNN
+F 1 "620" V 1936 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2090 1590 50  0001 C CNN
+F 3 "~" H 2050 1600 50  0001 C CNN
+	1    2050 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 1500 2100 1500
+Wire Wire Line
+	2400 1500 2500 1500
+$Comp
+L Device:R_US R9
+U 1 1 60080BFE
+P 2250 1500
+F 0 "R9" V 2045 1500 50  0000 C CNN
+F 1 "620" V 2136 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2290 1490 50  0001 C CNN
+F 3 "~" H 2250 1500 50  0001 C CNN
+	1    2250 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 1400 1900 1400
+Wire Wire Line
+	2200 1400 2450 1400
+$Comp
+L Device:R_US R1
+U 1 1 600859BC
+P 2050 1400
+F 0 "R1" V 1845 1400 50  0000 C CNN
+F 1 "620" V 1936 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2090 1390 50  0001 C CNN
+F 3 "~" H 2050 1400 50  0001 C CNN
+	1    2050 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 60340FC5
+P 2050 3200
+F 0 "R5" V 1845 3200 50  0000 C CNN
+F 1 "620" V 1936 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2090 3190 50  0001 C CNN
+F 3 "~" H 2050 3200 50  0001 C CNN
+	1    2050 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 3200 2450 3200
+$Comp
+L Device:R_US R13
+U 1 1 6034183E
+P 2250 3300
+F 0 "R13" V 2045 3300 50  0000 C CNN
+F 1 "620" V 2136 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2290 3290 50  0001 C CNN
+F 3 "~" H 2250 3300 50  0001 C CNN
+	1    2250 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 3300 2500 3300
+$Comp
+L Device:R_US R6
+U 1 1 60341C17
+P 2050 3400
+F 0 "R6" V 1845 3400 50  0000 C CNN
+F 1 "620" V 1936 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2090 3390 50  0001 C CNN
+F 3 "~" H 2050 3400 50  0001 C CNN
+	1    2050 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 3400 2550 3400
+$Comp
+L Device:R_US R7
+U 1 1 60341F4B
+P 2050 3600
+F 0 "R7" V 1845 3600 50  0000 C CNN
+F 1 "620" V 1936 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2090 3590 50  0001 C CNN
+F 3 "~" H 2050 3600 50  0001 C CNN
+	1    2050 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 3600 2650 3600
+$Comp
+L Device:R_US R8
+U 1 1 60342237
+P 2050 3800
+F 0 "R8" V 1845 3800 50  0000 C CNN
+F 1 "620" V 1936 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2090 3790 50  0001 C CNN
+F 3 "~" H 2050 3800 50  0001 C CNN
+	1    2050 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 3800 2750 3800
+$Comp
+L Device:R_US R14
+U 1 1 60342588
+P 2250 3500
+F 0 "R14" V 2045 3500 50  0000 C CNN
+F 1 "620" V 2136 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2290 3490 50  0001 C CNN
+F 3 "~" H 2250 3500 50  0001 C CNN
+	1    2250 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 3500 2600 3500
+$Comp
+L Device:R_US R15
+U 1 1 6034290E
+P 2250 3700
+F 0 "R15" V 2045 3700 50  0000 C CNN
+F 1 "620" V 2136 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2290 3690 50  0001 C CNN
+F 3 "~" H 2250 3700 50  0001 C CNN
+	1    2250 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 3700 2700 3700
+$Comp
+L Device:R_US R16
+U 1 1 60342C8B
+P 2250 3900
+F 0 "R16" V 2045 3900 50  0000 C CNN
+F 1 "620" V 2136 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2290 3890 50  0001 C CNN
+F 3 "~" H 2250 3900 50  0001 C CNN
+	1    2250 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 3900 2800 3900
+Wire Wire Line
+	2450 1200 3050 1200
+Wire Wire Line
+	2500 1650 3750 1650
+Wire Wire Line
+	2600 2500 3750 2500
+Wire Wire Line
+	2550 2050 3050 2050
+Wire Wire Line
+	2650 2900 3050 2900
+Wire Wire Line
+	2700 3350 3750 3350
+Wire Wire Line
+	2750 3800 3050 3800
+Wire Wire Line
+	2800 4250 2800 3900
+Wire Wire Line
+	2800 4250 3750 4250
+Connection ~ 2800 3900
+$Comp
+L Device:Speaker_Ultrasound LS9
+U 1 1 603FE8D1
+P 9350 1200
+F 0 "LS9" H 9524 1196 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 9524 1105 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 9315 1150 50  0001 C CNN
+F 3 "~" H 9315 1150 50  0001 C CNN
+	1    9350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Ultrasound LS13
+U 1 1 603FE8D7
+P 10050 1650
+F 0 "LS13" H 10224 1646 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 10224 1555 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 10015 1600 50  0001 C CNN
+F 3 "~" H 10015 1600 50  0001 C CNN
+	1    10050 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Ultrasound LS10
+U 1 1 603FE8DD
+P 9350 2050
+F 0 "LS10" H 9524 2046 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 9524 1955 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 9315 2000 50  0001 C CNN
+F 3 "~" H 9315 2000 50  0001 C CNN
+	1    9350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Ultrasound LS14
+U 1 1 603FE8E3
+P 10050 2500
+F 0 "LS14" H 10224 2496 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 10224 2405 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 10015 2450 50  0001 C CNN
+F 3 "~" H 10015 2450 50  0001 C CNN
+	1    10050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Ultrasound LS11
+U 1 1 603FE8E9
+P 9350 2900
+F 0 "LS11" H 9524 2896 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 9524 2805 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 9315 2850 50  0001 C CNN
+F 3 "~" H 9315 2850 50  0001 C CNN
+	1    9350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Ultrasound LS15
+U 1 1 603FE8EF
+P 10050 3350
+F 0 "LS15" H 10224 3346 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 10224 3255 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 10015 3300 50  0001 C CNN
+F 3 "~" H 10015 3300 50  0001 C CNN
+	1    10050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Ultrasound LS12
+U 1 1 603FE8F5
+P 9350 3800
+F 0 "LS12" H 9524 3796 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 9524 3705 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 9315 3750 50  0001 C CNN
+F 3 "~" H 9315 3750 50  0001 C CNN
+	1    9350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Speaker_Ultrasound LS16
+U 1 1 603FE8FB
+P 10050 4250
+F 0 "LS16" H 10224 4246 50  0000 L CNN
+F 1 "Speaker_Ultrasound" H 10224 4155 50  0000 L CNN
+F 2 "Ultrasonic Emitters:Ultrasonic_Transducer_T40-16" H 10015 4200 50  0001 C CNN
+F 3 "~" H 10015 4200 50  0001 C CNN
+	1    10050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 603FE901
+P 9100 1350
+F 0 "#PWR023" H 9100 1100 50  0001 C CNN
+F 1 "GND" H 9105 1177 50  0000 C CNN
+F 2 "" H 9100 1350 50  0001 C CNN
+F 3 "" H 9100 1350 50  0001 C CNN
+	1    9100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 603FE907
+P 9800 1800
+F 0 "#PWR027" H 9800 1550 50  0001 C CNN
+F 1 "GND" H 9805 1627 50  0000 C CNN
+F 2 "" H 9800 1800 50  0001 C CNN
+F 3 "" H 9800 1800 50  0001 C CNN
+	1    9800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 603FE90D
+P 9100 2200
+F 0 "#PWR024" H 9100 1950 50  0001 C CNN
+F 1 "GND" H 9105 2027 50  0000 C CNN
+F 2 "" H 9100 2200 50  0001 C CNN
+F 3 "" H 9100 2200 50  0001 C CNN
+	1    9100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 603FE913
+P 9800 2650
+F 0 "#PWR028" H 9800 2400 50  0001 C CNN
+F 1 "GND" H 9805 2477 50  0000 C CNN
+F 2 "" H 9800 2650 50  0001 C CNN
+F 3 "" H 9800 2650 50  0001 C CNN
+	1    9800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 603FE919
+P 9800 3500
+F 0 "#PWR029" H 9800 3250 50  0001 C CNN
+F 1 "GND" H 9805 3327 50  0000 C CNN
+F 2 "" H 9800 3500 50  0001 C CNN
+F 3 "" H 9800 3500 50  0001 C CNN
+	1    9800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 603FE91F
+P 9100 3050
+F 0 "#PWR025" H 9100 2800 50  0001 C CNN
+F 1 "GND" H 9105 2877 50  0000 C CNN
+F 2 "" H 9100 3050 50  0001 C CNN
+F 3 "" H 9100 3050 50  0001 C CNN
+	1    9100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 603FE925
+P 9100 3950
+F 0 "#PWR026" H 9100 3700 50  0001 C CNN
+F 1 "GND" H 9105 3777 50  0000 C CNN
+F 2 "" H 9100 3950 50  0001 C CNN
+F 3 "" H 9100 3950 50  0001 C CNN
+	1    9100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 603FE92B
+P 9800 4400
+F 0 "#PWR030" H 9800 4150 50  0001 C CNN
+F 1 "GND" H 9805 4227 50  0000 C CNN
+F 2 "" H 9800 4400 50  0001 C CNN
+F 3 "" H 9800 4400 50  0001 C CNN
+	1    9800 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 1400 8550 1200
+Wire Wire Line
+	8600 1500 8600 1650
+Wire Wire Line
+	8650 1600 8650 2050
+Wire Wire Line
+	9850 1750 9800 1750
+Wire Wire Line
+	9800 1750 9800 1800
+Wire Wire Line
+	9850 2600 9800 2600
+Wire Wire Line
+	9800 2600 9800 2650
+Wire Wire Line
+	9150 2150 9100 2150
+Wire Wire Line
+	9100 2150 9100 2200
+Wire Wire Line
+	9150 3000 9100 3000
+Wire Wire Line
+	9100 3000 9100 3050
+Wire Wire Line
+	9850 3450 9800 3450
+Wire Wire Line
+	9800 3450 9800 3500
+Wire Wire Line
+	9850 4350 9800 4350
+Wire Wire Line
+	9800 4350 9800 4400
+Wire Wire Line
+	9150 3900 9100 3900
+Wire Wire Line
+	9100 3900 9100 3950
+Wire Wire Line
+	8700 1700 8700 2500
+Connection ~ 8700 2500
+Wire Wire Line
+	8750 1800 8750 2900
+Connection ~ 8750 2900
+Wire Wire Line
+	8800 1900 8800 3350
+Connection ~ 8650 2050
+Connection ~ 8550 1400
+Connection ~ 8600 1650
+Wire Wire Line
+	7950 3600 8000 3600
+Wire Wire Line
+	7950 3500 8200 3500
+Wire Wire Line
+	7950 3400 8000 3400
+Wire Wire Line
+	7950 3200 8000 3200
+Wire Wire Line
+	7950 3300 8200 3300
+Wire Wire Line
+	8900 2100 8900 3900
+Wire Wire Line
+	8850 2000 8850 3800
+Wire Wire Line
+	8550 1400 8550 3200
+Wire Wire Line
+	8600 1650 8600 3300
+Wire Wire Line
+	8650 2050 8650 3400
+Wire Wire Line
+	8700 2500 8700 3500
+Wire Wire Line
+	8750 2900 8750 3600
+Wire Wire Line
+	7950 3700 8200 3700
+Wire Wire Line
+	8800 3700 8800 3350
+Connection ~ 8800 3350
+Wire Wire Line
+	7950 3800 8000 3800
+Connection ~ 8850 3800
+Wire Wire Line
+	7950 3900 8200 3900
+$Comp
+L power:GND #PWR022
+U 1 1 603FE95C
+P 8000 4050
+F 0 "#PWR022" H 8000 3800 50  0001 C CNN
+F 1 "GND" H 8005 3877 50  0000 C CNN
+F 2 "" H 8000 4050 50  0001 C CNN
+F 3 "" H 8000 4050 50  0001 C CNN
+	1    8000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 603FE962
+P 8000 2250
+F 0 "#PWR021" H 8000 2000 50  0001 C CNN
+F 1 "GND" H 8005 2077 50  0000 C CNN
+F 2 "" H 8000 2250 50  0001 C CNN
+F 3 "" H 8000 2250 50  0001 C CNN
+	1    8000 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1350 9100 1300
+Wire Wire Line
+	9100 1300 9150 1300
+Wire Wire Line
+	7950 2100 8200 2100
+Wire Wire Line
+	8500 2100 8900 2100
+$Comp
+L Device:R_US R28
+U 1 1 603FE970
+P 8350 2100
+F 0 "R28" V 8145 2100 50  0000 C CNN
+F 1 "620" V 8236 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8390 2090 50  0001 C CNN
+F 3 "~" H 8350 2100 50  0001 C CNN
+	1    8350 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 2000 8000 2000
+Wire Wire Line
+	8300 2000 8850 2000
+$Comp
+L Device:R_US R20
+U 1 1 603FE978
+P 8150 2000
+F 0 "R20" V 7945 2000 50  0000 C CNN
+F 1 "620" V 8036 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8190 1990 50  0001 C CNN
+F 3 "~" H 8150 2000 50  0001 C CNN
+	1    8150 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 1900 8200 1900
+Wire Wire Line
+	8500 1900 8800 1900
+$Comp
+L Device:R_US R27
+U 1 1 603FE980
+P 8350 1900
+F 0 "R27" V 8145 1900 50  0000 C CNN
+F 1 "620" V 8236 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8390 1890 50  0001 C CNN
+F 3 "~" H 8350 1900 50  0001 C CNN
+	1    8350 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 1800 8000 1800
+Wire Wire Line
+	8300 1800 8750 1800
+$Comp
+L Device:R_US R19
+U 1 1 603FE988
+P 8150 1800
+F 0 "R19" V 7945 1800 50  0000 C CNN
+F 1 "620" V 8036 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8190 1790 50  0001 C CNN
+F 3 "~" H 8150 1800 50  0001 C CNN
+	1    8150 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 1700 8200 1700
+Wire Wire Line
+	8500 1700 8700 1700
+$Comp
+L Device:R_US R26
+U 1 1 603FE990
+P 8350 1700
+F 0 "R26" V 8145 1700 50  0000 C CNN
+F 1 "620" V 8236 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8390 1690 50  0001 C CNN
+F 3 "~" H 8350 1700 50  0001 C CNN
+	1    8350 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 1600 8000 1600
+Wire Wire Line
+	8300 1600 8650 1600
+$Comp
+L Device:R_US R18
+U 1 1 603FE998
+P 8150 1600
+F 0 "R18" V 7945 1600 50  0000 C CNN
+F 1 "620" V 8036 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8190 1590 50  0001 C CNN
+F 3 "~" H 8150 1600 50  0001 C CNN
+	1    8150 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 1500 8200 1500
+Wire Wire Line
+	8500 1500 8600 1500
+$Comp
+L Device:R_US R25
+U 1 1 603FE9A0
+P 8350 1500
+F 0 "R25" V 8145 1500 50  0000 C CNN
+F 1 "620" V 8236 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8390 1490 50  0001 C CNN
+F 3 "~" H 8350 1500 50  0001 C CNN
+	1    8350 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 1400 8000 1400
+Wire Wire Line
+	8300 1400 8550 1400
+$Comp
+L Device:R_US R17
+U 1 1 603FE9A8
+P 8150 1400
+F 0 "R17" V 7945 1400 50  0000 C CNN
+F 1 "620" V 8036 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8190 1390 50  0001 C CNN
+F 3 "~" H 8150 1400 50  0001 C CNN
+	1    8150 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R21
+U 1 1 603FE9AE
+P 8150 3200
+F 0 "R21" V 7945 3200 50  0000 C CNN
+F 1 "620" V 8036 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8190 3190 50  0001 C CNN
+F 3 "~" H 8150 3200 50  0001 C CNN
+	1    8150 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8300 3200 8550 3200
+$Comp
+L Device:R_US R29
+U 1 1 603FE9B5
+P 8350 3300
+F 0 "R29" V 8145 3300 50  0000 C CNN
+F 1 "620" V 8236 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8390 3290 50  0001 C CNN
+F 3 "~" H 8350 3300 50  0001 C CNN
+	1    8350 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 3300 8600 3300
+$Comp
+L Device:R_US R22
+U 1 1 603FE9BC
+P 8150 3400
+F 0 "R22" V 7945 3400 50  0000 C CNN
+F 1 "620" V 8036 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8190 3390 50  0001 C CNN
+F 3 "~" H 8150 3400 50  0001 C CNN
+	1    8150 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8300 3400 8650 3400
+$Comp
+L Device:R_US R23
+U 1 1 603FE9C3
+P 8150 3600
+F 0 "R23" V 7945 3600 50  0000 C CNN
+F 1 "620" V 8036 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8190 3590 50  0001 C CNN
+F 3 "~" H 8150 3600 50  0001 C CNN
+	1    8150 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8300 3600 8750 3600
+$Comp
+L Device:R_US R24
+U 1 1 603FE9CA
+P 8150 3800
+F 0 "R24" V 7945 3800 50  0000 C CNN
+F 1 "620" V 8036 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8190 3790 50  0001 C CNN
+F 3 "~" H 8150 3800 50  0001 C CNN
+	1    8150 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8300 3800 8850 3800
+$Comp
+L Device:R_US R30
+U 1 1 603FE9D1
+P 8350 3500
+F 0 "R30" V 8145 3500 50  0000 C CNN
+F 1 "620" V 8236 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8390 3490 50  0001 C CNN
+F 3 "~" H 8350 3500 50  0001 C CNN
+	1    8350 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 3500 8700 3500
+$Comp
+L Device:R_US R31
+U 1 1 603FE9D8
+P 8350 3700
+F 0 "R31" V 8145 3700 50  0000 C CNN
+F 1 "620" V 8236 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8390 3690 50  0001 C CNN
+F 3 "~" H 8350 3700 50  0001 C CNN
+	1    8350 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 3700 8800 3700
+$Comp
+L Device:R_US R32
+U 1 1 603FE9DF
+P 8350 3900
+F 0 "R32" V 8145 3900 50  0000 C CNN
+F 1 "620" V 8236 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8390 3890 50  0001 C CNN
+F 3 "~" H 8350 3900 50  0001 C CNN
+	1    8350 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 3900 8900 3900
+Wire Wire Line
+	8550 1200 9150 1200
+Wire Wire Line
+	8600 1650 9850 1650
+Wire Wire Line
+	8700 2500 9850 2500
+Wire Wire Line
+	8650 2050 9150 2050
+Wire Wire Line
+	8750 2900 9150 2900
+Wire Wire Line
+	8800 3350 9850 3350
+Wire Wire Line
+	8850 3800 9150 3800
+Wire Wire Line
+	8900 4250 8900 3900
+Wire Wire Line
+	8900 4250 9850 4250
+Connection ~ 8900 3900
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 600FDA36
+P 6100 4900
+F 0 "J2" H 6180 4942 50  0000 L CNN
+F 1 "Conn_01x01" H 6180 4851 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 6100 4900 50  0001 C CNN
+F 3 "~" H 6100 4900 50  0001 C CNN
+	1    6100 4900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

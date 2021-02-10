@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Ultrasonic Library")(type Legacy)(uri "${KIPRJMOD}/Ultrasonic Library/Ultrasonic Library.lib")(options "")(descr ""))
+)

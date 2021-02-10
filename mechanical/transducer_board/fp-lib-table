@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Ultrasonic Emitters")(type KiCad)(uri "${KIPRJMOD}/Ultrasonic Emitters.pretty")(options "")(descr ""))
+)
