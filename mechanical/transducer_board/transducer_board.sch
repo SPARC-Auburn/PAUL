@@ -406,17 +406,6 @@ Connection ~ 1150 2500
 Wire Wire Line
 	700  2200 900  2200
 Connection ~ 1150 2200
-$Comp
-L Connector_Generic:Conn_02x17_Top_Bottom J1
-U 1 1 600F2E72
-P 5800 3000
-F 0 "J1" H 5850 4017 50  0000 C CNN
-F 1 "Conn_02x17_Top_Bottom" H 5850 3926 50  0000 C CNN
-F 2 "Ultrasonic Emitters:PinHeader_2x17_P2.54mm_Vertical_SMD_Wide" H 5800 3000 50  0001 C CNN
-F 3 "~" H 5800 3000 50  0001 C CNN
-	1    5800 3000
-	1    0    0    -1  
-$EndComp
 Text Label 1250 1400 2    50   ~ 0
 T1+
 Text Label 5600 2200 2    50   ~ 0
@@ -424,61 +413,57 @@ T1+
 Text Label 5600 2300 2    50   ~ 0
 T2+
 Text Label 1250 1500 2    50   ~ 0
-T2+
+T5+
 Text Label 5600 2400 2    50   ~ 0
 T3+
 Text Label 1250 1600 2    50   ~ 0
-T3+
+T2+
 Text Label 5600 2500 2    50   ~ 0
 T4+
 Text Label 1250 1700 2    50   ~ 0
-T4+
+T6+
 Text Label 5600 2600 2    50   ~ 0
-T5+
+T1-
 Text Label 1250 1800 2    50   ~ 0
-T5+
+T3+
 Text Label 5600 2700 2    50   ~ 0
-T6+
+T2-
 Text Label 1250 1900 2    50   ~ 0
-T6+
+T7+
 Text Label 5600 2800 2    50   ~ 0
-T7+
+T3-
 Text Label 1250 2000 2    50   ~ 0
-T7+
+T4+
 Text Label 5600 2900 2    50   ~ 0
-T8+
+T4-
 Text Label 1250 2100 2    50   ~ 0
 T8+
-Text Label 5600 3000 2    50   ~ 0
-T1-
 Text Label 1250 3200 2    50   ~ 0
 T1-
 Text Label 5600 3100 2    50   ~ 0
-T2-
+T12+
 Text Label 1250 3300 2    50   ~ 0
-T2-
-Text Label 5600 3200 2    50   ~ 0
-T3-
+T5-
 Text Label 1250 3400 2    50   ~ 0
-T3-
+T2-
 Text Label 5600 3300 2    50   ~ 0
-T4-
+T10+
 Text Label 1250 3500 2    50   ~ 0
-T4-
+T6-
 Text Label 5600 3400 2    50   ~ 0
-T5-
+T9+
 Text Label 1250 3600 2    50   ~ 0
-T5-
+T3-
 Text Label 5600 3500 2    50   ~ 0
-T6-
+T12-
 Text Label 1250 3700 2    50   ~ 0
-T6-
+T7-
 Text Label 5600 3600 2    50   ~ 0
-T7-
+T11-
 Text Label 1250 3800 2    50   ~ 0
-T7-
+T4-
 Text Label 5600 3700 2    50   ~ 0
-T8-
+T10-
 Text Label 1250 3900 2    50   ~ 0
 T8-
 $Comp
@@ -545,211 +530,188 @@ F 3 "" H 5900 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6100 3800
-NoConn ~ 5600 3800
-$Comp
-L Ultrasonic~Library:XL62783 U3
-U 1 1 60142E9B
-P 7650 1800
-F 0 "U3" H 7650 2425 50  0000 C CNN
-F 1 "XL62783" H 7650 2334 50  0000 C CNN
-F 2 "Ultrasonic Emitters:SOIC-18W_7.5x11.6mm_P1.27mm_Weird" H 7650 1800 50  0001 C CNN
-F 3 "" H 7650 1800 50  0001 C CNN
-	1    7650 1800
-	1    0    0    -1  
-$EndComp
+NoConn ~ 5600 3000
 $Comp
 L Device:C C7
 U 1 1 601432A9
-P 7250 2350
-F 0 "C7" H 7365 2396 50  0000 L CNN
-F 1 ".1uF" H 7365 2305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7288 2200 50  0001 C CNN
-F 3 "~" H 7250 2350 50  0001 C CNN
-	1    7250 2350
+P 6850 1450
+F 0 "C7" H 6965 1496 50  0000 L CNN
+F 1 ".1uF" H 6965 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6888 1300 50  0001 C CNN
+F 3 "~" H 6850 1450 50  0001 C CNN
+	1    6850 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR019
 U 1 1 60143353
-P 7250 2500
-F 0 "#PWR019" H 7250 2250 50  0001 C CNN
-F 1 "GND" H 7255 2327 50  0000 C CNN
-F 2 "" H 7250 2500 50  0001 C CNN
-F 3 "" H 7250 2500 50  0001 C CNN
-	1    7250 2500
+P 6850 1600
+F 0 "#PWR019" H 6850 1350 50  0001 C CNN
+F 1 "GND" H 6855 1427 50  0000 C CNN
+F 2 "" H 6850 1600 50  0001 C CNN
+F 3 "" H 6850 1600 50  0001 C CNN
+	1    6850 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR020
 U 1 1 601433E3
-P 7250 4300
-F 0 "#PWR020" H 7250 4050 50  0001 C CNN
-F 1 "GND" H 7255 4127 50  0000 C CNN
-F 2 "" H 7250 4300 50  0001 C CNN
-F 3 "" H 7250 4300 50  0001 C CNN
-	1    7250 4300
+P 6900 3400
+F 0 "#PWR020" H 6900 3150 50  0001 C CNN
+F 1 "GND" H 6905 3227 50  0000 C CNN
+F 2 "" H 6900 3400 50  0001 C CNN
+F 3 "" H 6900 3400 50  0001 C CNN
+	1    6900 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C8
 U 1 1 601433ED
-P 7250 4150
-F 0 "C8" H 7365 4196 50  0000 L CNN
-F 1 ".1uF" H 7365 4105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7288 4000 50  0001 C CNN
-F 3 "~" H 7250 4150 50  0001 C CNN
-	1    7250 4150
+P 6900 3250
+F 0 "C8" H 7015 3296 50  0000 L CNN
+F 1 ".1uF" H 7015 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6938 3100 50  0001 C CNN
+F 3 "~" H 6900 3250 50  0001 C CNN
+	1    6900 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Ultrasonic~Library:XL62083 U4
 U 1 1 601433F7
-P 7650 3600
-F 0 "U4" H 7650 4225 50  0000 C CNN
-F 1 "XL62083" H 7650 4134 50  0000 C CNN
-F 2 "Ultrasonic Emitters:SOIC-18W_7.5x11.6mm_P1.27mm_Weird" H 7650 3600 50  0001 C CNN
-F 3 "" H 7650 3600 50  0001 C CNN
-	1    7650 3600
-	1    0    0    -1  
+P 7650 3500
+F 0 "U4" H 7650 4125 50  0000 C CNN
+F 1 "XL62083" H 7650 4034 50  0000 C CNN
+F 2 "Ultrasonic Emitters:SOIC-18W_7.5x11.6mm_P1.27mm_Weird" H 7650 3500 50  0001 C CNN
+F 3 "" H 7650 3500 50  0001 C CNN
+	1    7650 3500
+	1    0    0    1   
 $EndComp
-Wire Wire Line
-	7350 2200 7250 2200
-Wire Wire Line
-	7350 4000 7250 4000
-Wire Wire Line
-	7950 2200 8000 2200
-Wire Wire Line
-	8000 2200 8000 2250
-Wire Wire Line
-	7950 4000 8000 4000
-Wire Wire Line
-	8000 4000 8000 4050
 $Comp
 L Device:C C5
 U 1 1 6014342A
-P 6800 2350
-F 0 "C5" H 6915 2396 50  0000 L CNN
-F 1 ".01uF" H 6915 2305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6838 2200 50  0001 C CNN
-F 3 "~" H 6800 2350 50  0001 C CNN
-	1    6800 2350
+P 6400 1450
+F 0 "C5" H 6515 1496 50  0000 L CNN
+F 1 ".01uF" H 6515 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6438 1300 50  0001 C CNN
+F 3 "~" H 6400 1450 50  0001 C CNN
+	1    6400 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C6
 U 1 1 60143436
-P 6800 4150
-F 0 "C6" H 6915 4196 50  0000 L CNN
-F 1 ".01uF" H 6915 4105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6838 4000 50  0001 C CNN
-F 3 "~" H 6800 4150 50  0001 C CNN
-	1    6800 4150
+P 6450 3250
+F 0 "C6" H 6565 3296 50  0000 L CNN
+F 1 ".01uF" H 6565 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6488 3100 50  0001 C CNN
+F 3 "~" H 6450 3250 50  0001 C CNN
+	1    6450 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 4000 7000 4000
-Connection ~ 7250 4000
+	6450 3100 6650 3100
+Connection ~ 6900 3100
 Wire Wire Line
-	6800 4300 7250 4300
-Connection ~ 7250 4300
+	6450 3400 6900 3400
+Connection ~ 6900 3400
 Wire Wire Line
-	6800 2500 7250 2500
-Connection ~ 7250 2500
+	6400 1600 6850 1600
+Connection ~ 6850 1600
 Wire Wire Line
-	6800 2200 7000 2200
-Connection ~ 7250 2200
+	6400 1300 6600 1300
+Connection ~ 6850 1300
 Text Label 7350 1400 2    50   ~ 0
 T9+
 Text Label 7350 1500 2    50   ~ 0
-T10+
-Text Label 7350 1600 2    50   ~ 0
-T11+
-Text Label 7350 1700 2    50   ~ 0
-T12+
-Text Label 7350 1800 2    50   ~ 0
 T13+
-Text Label 7350 1900 2    50   ~ 0
+Text Label 7350 1600 2    50   ~ 0
+T10+
+Text Label 7350 1700 2    50   ~ 0
 T14+
-Text Label 7350 2000 2    50   ~ 0
+Text Label 7350 1800 2    50   ~ 0
+T11+
+Text Label 7350 1900 2    50   ~ 0
 T15+
+Text Label 7350 2000 2    50   ~ 0
+T12+
 Text Label 7350 2100 2    50   ~ 0
 T16+
 Text Label 7350 3200 2    50   ~ 0
 T9-
 Text Label 7350 3300 2    50   ~ 0
-T10-
-Text Label 7350 3400 2    50   ~ 0
-T11-
-Text Label 7350 3500 2    50   ~ 0
-T12-
-Text Label 7350 3600 2    50   ~ 0
 T13-
-Text Label 7350 3700 2    50   ~ 0
+Text Label 7350 3400 2    50   ~ 0
+T10-
+Text Label 7350 3500 2    50   ~ 0
 T14-
-Text Label 7350 3800 2    50   ~ 0
+Text Label 7350 3600 2    50   ~ 0
+T11-
+Text Label 7350 3700 2    50   ~ 0
 T15-
+Text Label 7350 3800 2    50   ~ 0
+T12-
 Text Label 7350 3900 2    50   ~ 0
 T16-
 $Comp
 L power:VCC #PWR018
 U 1 1 60143458
-P 7000 4000
-F 0 "#PWR018" H 7000 3850 50  0001 C CNN
-F 1 "VCC" H 7015 4173 50  0000 C CNN
-F 2 "" H 7000 4000 50  0001 C CNN
-F 3 "" H 7000 4000 50  0001 C CNN
-	1    7000 4000
+P 6650 3100
+F 0 "#PWR018" H 6650 2950 50  0001 C CNN
+F 1 "VCC" H 6665 3273 50  0000 C CNN
+F 2 "" H 6650 3100 50  0001 C CNN
+F 3 "" H 6650 3100 50  0001 C CNN
+	1    6650 3100
 	1    0    0    -1  
 $EndComp
-Connection ~ 7000 4000
+Connection ~ 6650 3100
 Wire Wire Line
-	7000 4000 7250 4000
+	6650 3100 6900 3100
 $Comp
 L power:VCC #PWR017
 U 1 1 60143464
-P 7000 2200
-F 0 "#PWR017" H 7000 2050 50  0001 C CNN
-F 1 "VCC" H 7015 2373 50  0000 C CNN
-F 2 "" H 7000 2200 50  0001 C CNN
-F 3 "" H 7000 2200 50  0001 C CNN
-	1    7000 2200
+P 6600 1300
+F 0 "#PWR017" H 6600 1150 50  0001 C CNN
+F 1 "VCC" H 6615 1473 50  0000 C CNN
+F 2 "" H 6600 1300 50  0001 C CNN
+F 3 "" H 6600 1300 50  0001 C CNN
+	1    6600 1300
 	1    0    0    -1  
 $EndComp
-Connection ~ 7000 2200
+Connection ~ 6600 1300
 Wire Wire Line
-	7000 2200 7250 2200
+	6600 1300 6850 1300
 Text Label 6100 2200 0    50   ~ 0
-T9+
+T5+
 Text Label 6100 2300 0    50   ~ 0
-T10+
+T6+
 Text Label 6100 2400 0    50   ~ 0
-T11+
+T7+
 Text Label 6100 2500 0    50   ~ 0
-T12+
+T8+
 Text Label 6100 2600 0    50   ~ 0
-T13+
+T5-
 Text Label 6100 2700 0    50   ~ 0
-T14+
+T6-
 Text Label 6100 2800 0    50   ~ 0
-T15+
+T7-
 Text Label 6100 2900 0    50   ~ 0
-T16+
+T8-
 Text Label 6100 3000 0    50   ~ 0
-T9-
+T16+
 Text Label 6100 3100 0    50   ~ 0
-T10-
+T15+
 Text Label 6100 3200 0    50   ~ 0
-T11-
+T14+
 Text Label 6100 3300 0    50   ~ 0
-T12-
+T13+
 Text Label 6100 3400 0    50   ~ 0
-T13-
-Text Label 6100 3500 0    50   ~ 0
-T14-
-Text Label 6100 3600 0    50   ~ 0
-T15-
-Text Label 6100 3700 0    50   ~ 0
 T16-
+Text Label 6100 3500 0    50   ~ 0
+T15-
+Text Label 6100 3600 0    50   ~ 0
+T14-
+Text Label 6100 3700 0    50   ~ 0
+T13-
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 602597E1
@@ -1279,31 +1241,29 @@ Wire Wire Line
 $Comp
 L power:GND #PWR022
 U 1 1 603FE95C
-P 8000 4050
-F 0 "#PWR022" H 8000 3800 50  0001 C CNN
-F 1 "GND" H 8005 3877 50  0000 C CNN
-F 2 "" H 8000 4050 50  0001 C CNN
-F 3 "" H 8000 4050 50  0001 C CNN
-	1    8000 4050
-	1    0    0    -1  
+P 8000 2900
+F 0 "#PWR022" H 8000 2650 50  0001 C CNN
+F 1 "GND" H 8005 2727 50  0000 C CNN
+F 2 "" H 8000 2900 50  0001 C CNN
+F 3 "" H 8000 2900 50  0001 C CNN
+	1    8000 2900
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR021
 U 1 1 603FE962
-P 8000 2250
-F 0 "#PWR021" H 8000 2000 50  0001 C CNN
-F 1 "GND" H 8005 2077 50  0000 C CNN
-F 2 "" H 8000 2250 50  0001 C CNN
-F 3 "" H 8000 2250 50  0001 C CNN
-	1    8000 2250
-	1    0    0    -1  
+P 8000 1100
+F 0 "#PWR021" H 8000 850 50  0001 C CNN
+F 1 "GND" H 8005 927 50  0000 C CNN
+F 2 "" H 8000 1100 50  0001 C CNN
+F 3 "" H 8000 1100 50  0001 C CNN
+	1    8000 1100
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	9100 1350 9100 1300
 Wire Wire Line
 	9100 1300 9150 1300
-Wire Wire Line
-	7950 2100 8200 2100
 Wire Wire Line
 	8500 2100 8900 2100
 $Comp
@@ -1392,8 +1352,6 @@ F 3 "~" H 8150 1600 50  0001 C CNN
 	1    8150 1600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7950 1500 8200 1500
 Wire Wire Line
 	8500 1500 8600 1500
 $Comp
@@ -1556,4 +1514,46 @@ F 3 "~" H 6100 4900 50  0001 C CNN
 	1    6100 4900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7950 2100 8200 2100
+Wire Wire Line
+	7950 1500 8200 1500
+$Comp
+L Ultrasonic~Library:XL62783 U3
+U 1 1 60142E9B
+P 7650 1700
+F 0 "U3" H 7650 2325 50  0000 C CNN
+F 1 "XL62783" H 7650 2234 50  0000 C CNN
+F 2 "Ultrasonic Emitters:SOIC-18W_7.5x11.6mm_P1.27mm_Weird" H 7650 1700 50  0001 C CNN
+F 3 "" H 7650 1700 50  0001 C CNN
+	1    7650 1700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6850 1300 7350 1300
+Wire Wire Line
+	8000 1100 8000 1300
+Wire Wire Line
+	8000 1300 7950 1300
+Wire Wire Line
+	6900 3100 7350 3100
+Wire Wire Line
+	8000 2900 8000 3100
+Wire Wire Line
+	8000 3100 7950 3100
+$Comp
+L Connector_Generic:Conn_02x17_Odd_Even J1
+U 1 1 603EB02E
+P 5800 3000
+F 0 "J1" H 5850 4017 50  0000 C CNN
+F 1 "Conn_02x17_Odd_Even" H 5850 3926 50  0000 C CNN
+F 2 "Ultrasonic Emitters:PinHeader_2x17_P2.54mm_Vertical_SMD_Wide" H 5800 3000 50  0001 C CNN
+F 3 "~" H 5800 3000 50  0001 C CNN
+	1    5800 3000
+	1    0    0    -1  
+$EndComp
+Text Label 5600 3200 2    50   ~ 0
+T11+
+Text Label 5600 3800 2    50   ~ 0
+T9-
 $EndSCHEMATC
