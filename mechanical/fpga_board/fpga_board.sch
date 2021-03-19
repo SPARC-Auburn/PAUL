@@ -660,17 +660,6 @@ gnd
 Text Label 20900 11350 2    50   ~ 0
 gnd
 $Comp
-L Connector_Generic:Conn_02x17_Odd_Even J1
-U 1 1 6088D339
-P 18000 9650
-F 0 "J1" H 18050 10667 50  0000 C CNN
-F 1 "Conn_02x17_Odd_Even" H 18050 10576 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Vertical" H 18000 9650 50  0001 C CNN
-F 3 "~" H 18000 9650 50  0001 C CNN
-	1    18000 9650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x17_Odd_Even J2
 U 1 1 6089C76F
 P 24550 6250
@@ -684,12 +673,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x17_Odd_Even J3
 U 1 1 608C1D96
-P 24550 8200
-F 0 "J3" H 24600 9217 50  0000 C CNN
-F 1 "Conn_02x17_Odd_Even" H 24600 9126 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Vertical" H 24550 8200 50  0001 C CNN
-F 3 "~" H 24550 8200 50  0001 C CNN
-	1    24550 8200
+P 11150 9700
+F 0 "J3" H 11200 10717 50  0000 C CNN
+F 1 "Conn_02x17_Odd_Even" H 11200 10626 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Vertical" H 11150 9700 50  0001 C CNN
+F 3 "~" H 11150 9700 50  0001 C CNN
+	1    11150 9700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -706,88 +695,22 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x17_Odd_Even J5
 U 1 1 608D6B06
-P 26150 8200
-F 0 "J5" H 26200 9217 50  0000 C CNN
-F 1 "Conn_02x17_Odd_Even" H 26200 9126 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Vertical" H 26150 8200 50  0001 C CNN
-F 3 "~" H 26150 8200 50  0001 C CNN
-	1    26150 8200
+P 26650 9150
+F 0 "J5" H 26700 10167 50  0000 C CNN
+F 1 "Conn_02x17_Odd_Even" H 26700 10076 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Vertical" H 26650 9150 50  0001 C CNN
+F 3 "~" H 26650 9150 50  0001 C CNN
+	1    26650 9150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 24350 8200
-NoConn ~ 24850 9000
-NoConn ~ 17800 9650
-NoConn ~ 18300 10450
+NoConn ~ 10950 9700
+NoConn ~ 11450 10500
 NoConn ~ 24350 6250
 NoConn ~ 24850 7050
 NoConn ~ 25950 6250
 NoConn ~ 26450 7050
-NoConn ~ 25950 8200
-NoConn ~ 26450 9000
-Text Label 17800 8850 2    50   ~ 0
-T1+1
-Text Label 17800 8950 2    50   ~ 0
-T2+1
-Text Label 17800 9050 2    50   ~ 0
-T3+1
-Text Label 17800 9150 2    50   ~ 0
-T4+1
-Text Label 17800 9250 2    50   ~ 0
-T1-1
-Text Label 17800 9350 2    50   ~ 0
-T2-1
-Text Label 17800 9450 2    50   ~ 0
-T3-1
-Text Label 17800 9550 2    50   ~ 0
-T4-1
-Text Label 17800 9750 2    50   ~ 0
-T12+1
-Text Label 17800 9850 2    50   ~ 0
-T11+1
-Text Label 17800 9950 2    50   ~ 0
-T10+1
-Text Label 17800 10050 2    50   ~ 0
-T9+1
-Text Label 17800 10150 2    50   ~ 0
-T12-1
-Text Label 17800 10250 2    50   ~ 0
-T11-1
-Text Label 17800 10350 2    50   ~ 0
-T10-1
-Text Label 17800 10450 2    50   ~ 0
-T9-1
-Text Label 18300 8850 0    50   ~ 0
-T5+1
-Text Label 18300 8950 0    50   ~ 0
-T6+1
-Text Label 18300 9050 0    50   ~ 0
-T7+1
-Text Label 18300 9150 0    50   ~ 0
-T8+1
-Text Label 18300 9250 0    50   ~ 0
-T5-1
-Text Label 18300 9350 0    50   ~ 0
-T6-1
-Text Label 18300 9450 0    50   ~ 0
-T7-1
-Text Label 18300 9550 0    50   ~ 0
-T8-1
-Text Label 18300 9650 0    50   ~ 0
-T16+1
-Text Label 18300 9750 0    50   ~ 0
-T15+1
-Text Label 18300 9850 0    50   ~ 0
-T14+1
-Text Label 18300 9950 0    50   ~ 0
-T13+1
-Text Label 18300 10050 0    50   ~ 0
-T16-1
-Text Label 18300 10150 0    50   ~ 0
-T15-1
-Text Label 18300 10250 0    50   ~ 0
-T14-1
-Text Label 18300 10350 0    50   ~ 0
-T13-1
+NoConn ~ 26450 9150
+NoConn ~ 26950 9950
 Text Label 26450 5450 0    50   ~ 0
 T5+4
 Text Label 26450 5550 0    50   ~ 0
@@ -884,69 +807,69 @@ Text Label 25950 6950 2    50   ~ 0
 T10-4
 Text Label 25950 7050 2    50   ~ 0
 T9-4
-Text Label 24350 7400 2    50   ~ 0
+Text Label 10950 8900 2    50   ~ 0
 T1+3
-Text Label 24350 7500 2    50   ~ 0
+Text Label 10950 9000 2    50   ~ 0
 T2+3
-Text Label 24350 7600 2    50   ~ 0
+Text Label 10950 9100 2    50   ~ 0
 T3+3
-Text Label 24350 7700 2    50   ~ 0
+Text Label 10950 9200 2    50   ~ 0
 T4+3
-Text Label 24350 7800 2    50   ~ 0
+Text Label 10950 9300 2    50   ~ 0
 T1-3
-Text Label 24350 7900 2    50   ~ 0
+Text Label 10950 9400 2    50   ~ 0
 T2-3
-Text Label 24350 8000 2    50   ~ 0
+Text Label 10950 9500 2    50   ~ 0
 T3-3
-Text Label 24350 8100 2    50   ~ 0
+Text Label 10950 9600 2    50   ~ 0
 T4-3
-Text Label 24350 8300 2    50   ~ 0
+Text Label 10950 9800 2    50   ~ 0
 T12+3
-Text Label 24350 8400 2    50   ~ 0
+Text Label 10950 9900 2    50   ~ 0
 T11+3
-Text Label 24350 8500 2    50   ~ 0
+Text Label 10950 10000 2    50   ~ 0
 T10+3
-Text Label 24350 8600 2    50   ~ 0
+Text Label 10950 10100 2    50   ~ 0
 T9+3
-Text Label 24350 8700 2    50   ~ 0
+Text Label 10950 10200 2    50   ~ 0
 T12-3
-Text Label 24350 8800 2    50   ~ 0
+Text Label 10950 10300 2    50   ~ 0
 T11-3
-Text Label 24350 8900 2    50   ~ 0
+Text Label 10950 10400 2    50   ~ 0
 T10-3
-Text Label 24350 9000 2    50   ~ 0
+Text Label 10950 10500 2    50   ~ 0
 T9-3
-Text Label 25950 7400 2    50   ~ 0
+Text Label 26450 8350 2    50   ~ 0
 T1+5
-Text Label 25950 7500 2    50   ~ 0
+Text Label 26450 8450 2    50   ~ 0
 T2+5
-Text Label 25950 7600 2    50   ~ 0
+Text Label 26450 8550 2    50   ~ 0
 T3+5
-Text Label 25950 7700 2    50   ~ 0
+Text Label 26450 8650 2    50   ~ 0
 T4+5
-Text Label 25950 7800 2    50   ~ 0
+Text Label 26450 8750 2    50   ~ 0
 T1-5
-Text Label 25950 7900 2    50   ~ 0
+Text Label 26450 8850 2    50   ~ 0
 T2-5
-Text Label 25950 8000 2    50   ~ 0
+Text Label 26450 8950 2    50   ~ 0
 T3-5
-Text Label 25950 8100 2    50   ~ 0
+Text Label 26450 9050 2    50   ~ 0
 T4-5
-Text Label 25950 8300 2    50   ~ 0
+Text Label 26450 9250 2    50   ~ 0
 T12+5
-Text Label 25950 8400 2    50   ~ 0
+Text Label 26450 9350 2    50   ~ 0
 T11+5
-Text Label 25950 8500 2    50   ~ 0
+Text Label 26450 9450 2    50   ~ 0
 T10+5
-Text Label 25950 8600 2    50   ~ 0
+Text Label 26450 9550 2    50   ~ 0
 T9+5
-Text Label 25950 8700 2    50   ~ 0
+Text Label 26450 9650 2    50   ~ 0
 T12-5
-Text Label 25950 8800 2    50   ~ 0
+Text Label 26450 9750 2    50   ~ 0
 T11-5
-Text Label 25950 8900 2    50   ~ 0
+Text Label 26450 9850 2    50   ~ 0
 T10-5
-Text Label 25950 9000 2    50   ~ 0
+Text Label 26450 9950 2    50   ~ 0
 T9-5
 Text Label 24850 5450 0    50   ~ 0
 T5+2
@@ -980,69 +903,69 @@ Text Label 24850 6850 0    50   ~ 0
 T14-2
 Text Label 24850 6950 0    50   ~ 0
 T13-2
-Text Label 24850 7400 0    50   ~ 0
+Text Label 11450 8900 0    50   ~ 0
 T5+3
-Text Label 24850 7500 0    50   ~ 0
+Text Label 11450 9000 0    50   ~ 0
 T6+3
-Text Label 24850 7600 0    50   ~ 0
+Text Label 11450 9100 0    50   ~ 0
 T7+3
-Text Label 24850 7700 0    50   ~ 0
+Text Label 11450 9200 0    50   ~ 0
 T8+3
-Text Label 24850 7800 0    50   ~ 0
+Text Label 11450 9300 0    50   ~ 0
 T5-3
-Text Label 24850 7900 0    50   ~ 0
+Text Label 11450 9400 0    50   ~ 0
 T6-3
-Text Label 24850 8000 0    50   ~ 0
+Text Label 11450 9500 0    50   ~ 0
 T7-3
-Text Label 24850 8100 0    50   ~ 0
+Text Label 11450 9600 0    50   ~ 0
 T8-3
-Text Label 24850 8200 0    50   ~ 0
+Text Label 11450 9700 0    50   ~ 0
 T16+3
-Text Label 24850 8300 0    50   ~ 0
+Text Label 11450 9800 0    50   ~ 0
 T15+3
-Text Label 24850 8400 0    50   ~ 0
+Text Label 11450 9900 0    50   ~ 0
 T14+3
-Text Label 24850 8500 0    50   ~ 0
+Text Label 11450 10000 0    50   ~ 0
 T13+3
-Text Label 24850 8600 0    50   ~ 0
+Text Label 11450 10100 0    50   ~ 0
 T16-3
-Text Label 24850 8700 0    50   ~ 0
+Text Label 11450 10200 0    50   ~ 0
 T15-3
-Text Label 24850 8800 0    50   ~ 0
+Text Label 11450 10300 0    50   ~ 0
 T14-3
-Text Label 24850 8900 0    50   ~ 0
+Text Label 11450 10400 0    50   ~ 0
 T13-3
-Text Label 26450 7400 0    50   ~ 0
+Text Label 26950 8350 0    50   ~ 0
 T5+5
-Text Label 26450 7500 0    50   ~ 0
+Text Label 26950 8450 0    50   ~ 0
 T6+5
-Text Label 26450 7600 0    50   ~ 0
+Text Label 26950 8550 0    50   ~ 0
 T7+5
-Text Label 26450 7700 0    50   ~ 0
+Text Label 26950 8650 0    50   ~ 0
 T8+5
-Text Label 26450 7800 0    50   ~ 0
+Text Label 26950 8750 0    50   ~ 0
 T5-5
-Text Label 26450 7900 0    50   ~ 0
+Text Label 26950 8850 0    50   ~ 0
 T6-5
-Text Label 26450 8000 0    50   ~ 0
+Text Label 26950 8950 0    50   ~ 0
 T7-5
-Text Label 26450 8100 0    50   ~ 0
+Text Label 26950 9050 0    50   ~ 0
 T8-5
-Text Label 26450 8200 0    50   ~ 0
+Text Label 26950 9150 0    50   ~ 0
 T16+5
-Text Label 26450 8300 0    50   ~ 0
+Text Label 26950 9250 0    50   ~ 0
 T15+5
-Text Label 26450 8400 0    50   ~ 0
+Text Label 26950 9350 0    50   ~ 0
 T14+5
-Text Label 26450 8500 0    50   ~ 0
+Text Label 26950 9450 0    50   ~ 0
 T13+5
-Text Label 26450 8600 0    50   ~ 0
+Text Label 26950 9550 0    50   ~ 0
 T16-5
-Text Label 26450 8700 0    50   ~ 0
+Text Label 26950 9650 0    50   ~ 0
 T15-5
-Text Label 26450 8800 0    50   ~ 0
+Text Label 26950 9750 0    50   ~ 0
 T14-5
-Text Label 26450 8900 0    50   ~ 0
+Text Label 26950 9850 0    50   ~ 0
 T13-5
 Wire Wire Line
 	13100 6550 13200 6550
@@ -1291,14 +1214,433 @@ Text Label 16700 8950 0    50   ~ 0
 T5+2
 Text Label 16700 10350 0    50   ~ 0
 T1+2
-Text Label 16700 11850 0    50   ~ 0
-T9-1
-Text Label 16700 12550 0    50   ~ 0
-T10-1
-Text Label 16700 12650 0    50   ~ 0
-T13-1
-Text Label 16700 10950 0    50   ~ 0
+$Comp
+L Connector_Generic:Conn_02x17_Odd_Even J1
+U 1 1 6088D339
+P 25350 8950
+F 0 "J1" H 25400 9967 50  0000 C CNN
+F 1 "Conn_02x17_Odd_Even" H 25400 9876 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Vertical" H 25350 8950 50  0001 C CNN
+F 3 "~" H 25350 8950 50  0001 C CNN
+	1    25350 8950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 25150 8950
+NoConn ~ 25650 9750
+Text Label 25150 8150 2    50   ~ 0
+T1+1
+Text Label 25150 8250 2    50   ~ 0
+T2+1
+Text Label 25150 8350 2    50   ~ 0
+T3+1
+Text Label 25150 8450 2    50   ~ 0
+T4+1
+Text Label 25150 8550 2    50   ~ 0
+T1-1
+Text Label 25150 8650 2    50   ~ 0
+T2-1
+Text Label 25150 8750 2    50   ~ 0
+T3-1
+Text Label 25150 8850 2    50   ~ 0
+T4-1
+Text Label 25150 9050 2    50   ~ 0
+T12+1
+Text Label 25150 9150 2    50   ~ 0
+T11+1
+Text Label 25150 9250 2    50   ~ 0
+T10+1
+Text Label 25150 9350 2    50   ~ 0
+T9+1
+Text Label 25150 9450 2    50   ~ 0
+T12-1
+Text Label 25150 9550 2    50   ~ 0
 T11-1
-Text Label 4850 7400 2    50   ~ 0
+Text Label 25150 9650 2    50   ~ 0
+T10-1
+Text Label 25150 9750 2    50   ~ 0
+T9-1
+Text Label 25650 8150 0    50   ~ 0
+T5+1
+Text Label 25650 8250 0    50   ~ 0
+T6+1
+Text Label 25650 8350 0    50   ~ 0
+T7+1
+Text Label 25650 8450 0    50   ~ 0
+T8+1
+Text Label 25650 8550 0    50   ~ 0
+T5-1
+Text Label 25650 8650 0    50   ~ 0
+T6-1
+Text Label 25650 8750 0    50   ~ 0
+T7-1
+Text Label 25650 8850 0    50   ~ 0
+T8-1
+Text Label 25650 8950 0    50   ~ 0
+T16+1
+Text Label 25650 9050 0    50   ~ 0
+T15+1
+Text Label 25650 9150 0    50   ~ 0
+T14+1
+Text Label 25650 9250 0    50   ~ 0
+T13+1
+Text Label 25650 9350 0    50   ~ 0
+T16-1
+Text Label 25650 9450 0    50   ~ 0
+T15-1
+Text Label 25650 9550 0    50   ~ 0
 T14-1
+Text Label 25650 9650 0    50   ~ 0
+T13-1
+Text Label 16700 8850 0    50   ~ 0
+T9-4
+Text Label 16700 8750 0    50   ~ 0
+T13-4
+Text Label 16700 8650 0    50   ~ 0
+T10-4
+Text Label 16700 8550 0    50   ~ 0
+T14-4
+Text Label 16700 8450 0    50   ~ 0
+T11-4
+Text Label 16700 8350 0    50   ~ 0
+T15-4
+Text Label 16700 8250 0    50   ~ 0
+T12-4
+Text Label 16700 8150 0    50   ~ 0
+T16-4
+Text Label 16700 8050 0    50   ~ 0
+T9+4
+Text Label 16700 7950 0    50   ~ 0
+T13+4
+Text Label 16700 7850 0    50   ~ 0
+T10+4
+Text Label 16700 7750 0    50   ~ 0
+T14+4
+Text Label 16700 10750 0    50   ~ 0
+T11+4
+Text Label 16700 7350 0    50   ~ 0
+T15+4
+Text Label 16700 10450 0    50   ~ 0
+T12+4
+Text Label 16700 7450 0    50   ~ 0
+T16+4
+Text Label 16700 7650 0    50   ~ 0
+T8-4
+Text Label 16700 7550 0    50   ~ 0
+T4-4
+Text Label 12700 10550 2    50   ~ 0
+T7-4
+Text Label 12700 11050 2    50   ~ 0
+T3-4
+Text Label 12700 10750 2    50   ~ 0
+T6-4
+Text Label 12700 9750 2    50   ~ 0
+T2-4
+Text Label 12700 10150 2    50   ~ 0
+T5-4
+Text Label 12700 10650 2    50   ~ 0
+T1-4
+Text Label 12700 10250 2    50   ~ 0
+T8+4
+Text Label 12700 10450 2    50   ~ 0
+T4+4
+Text Label 12700 9450 2    50   ~ 0
+T7+4
+Text Label 12700 10350 2    50   ~ 0
+T3+4
+Text Label 12700 8650 2    50   ~ 0
+T6+4
+Text Label 12700 8550 2    50   ~ 0
+T2+4
+NoConn ~ 20850 7900
+Text Label 12700 7550 2    50   ~ 0
+T5+4
+Text Label 12700 7650 2    50   ~ 0
+T1+4
+Text Label 12700 10050 2    50   ~ 0
+T9-5
+Text Label 12700 9950 2    50   ~ 0
+T13-5
+Text Label 12700 9850 2    50   ~ 0
+T10-5
+Text Label 12700 9550 2    50   ~ 0
+T14-5
+Text Label 12700 9650 2    50   ~ 0
+T11-5
+Text Label 12700 9150 2    50   ~ 0
+T15-5
+Text Label 12700 9250 2    50   ~ 0
+T12-5
+Text Label 12700 8750 2    50   ~ 0
+T16-5
+Text Label 12700 8850 2    50   ~ 0
+T9+5
+Text Label 12700 7850 2    50   ~ 0
+T13+5
+Text Label 8850 12100 0    50   ~ 0
+T10+5
+Text Label 12700 10850 2    50   ~ 0
+T14+5
+Text Label 12700 9350 2    50   ~ 0
+T11+5
+Text Label 12700 8950 2    50   ~ 0
+T15+5
+Text Label 12700 9050 2    50   ~ 0
+T12+5
+Text Label 12700 8450 2    50   ~ 0
+T16+5
+Text Label 12700 8350 2    50   ~ 0
+T8-5
+Text Label 12700 8050 2    50   ~ 0
+T4-5
+Text Label 12700 8250 2    50   ~ 0
+T7-5
+Text Label 12700 7950 2    50   ~ 0
+T3-5
+Text Label 16700 11850 0    50   ~ 0
+T5+3
+Text Label 16700 12550 0    50   ~ 0
+T1+3
+Text Label 16700 12650 0    50   ~ 0
+T6+3
+Text Label 16700 10950 0    50   ~ 0
+T2+3
+Text Label 4850 7400 2    50   ~ 0
+T7+3
+Text Label 4850 7500 2    50   ~ 0
+T3+3
+Text Label 4850 7600 2    50   ~ 0
+T8+3
+Text Label 4850 7900 2    50   ~ 0
+T4+3
+Text Label 4850 8000 2    50   ~ 0
+T5-3
+Text Label 4850 8600 2    50   ~ 0
+T1-3
+Text Label 4850 8400 2    50   ~ 0
+T6-3
+Text Label 4850 8700 2    50   ~ 0
+T2-3
+Text Label 4850 8800 2    50   ~ 0
+T7-3
+Text Label 4850 9800 2    50   ~ 0
+T3-3
+Text Label 4850 9000 2    50   ~ 0
+T8-3
+Text Label 4850 9100 2    50   ~ 0
+T4-3
+Text Label 4850 9200 2    50   ~ 0
+T16+3
+Text Label 4850 9600 2    50   ~ 0
+T15+3
+Text Label 4850 10000 2    50   ~ 0
+T12+3
+Text Label 4850 10300 2    50   ~ 0
+T14+3
+Text Label 4850 10400 2    50   ~ 0
+T11+3
+Text Label 4850 10600 2    50   ~ 0
+T13+3
+Text Label 4850 10900 2    50   ~ 0
+T10+3
+Text Label 4850 11000 2    50   ~ 0
+T16-3
+Text Label 8850 7500 0    50   ~ 0
+T9+3
+Text Label 8850 12000 0    50   ~ 0
+T6-5
+Text Label 8850 11700 0    50   ~ 0
+T2-5
+Text Label 8850 11900 0    50   ~ 0
+T5-5
+Text Label 8850 11500 0    50   ~ 0
+T1-5
+Text Label 8850 11800 0    50   ~ 0
+T8+5
+Text Label 8850 11600 0    50   ~ 0
+T4+5
+Text Label 8850 11400 0    50   ~ 0
+T7+5
+Text Label 8850 11300 0    50   ~ 0
+T3+5
+Text Label 8850 10800 0    50   ~ 0
+T6+5
+Text Label 8850 12600 0    50   ~ 0
+T2+5
+Text Label 8850 11000 0    50   ~ 0
+T5+5
+Text Label 8850 10900 0    50   ~ 0
+T1+5
+Text Label 8850 7600 0    50   ~ 0
+T9-1
+Text Label 8850 8300 0    50   ~ 0
+T13-1
+Text Label 8850 8400 0    50   ~ 0
+T10-1
+Text Label 8850 8000 0    50   ~ 0
+T15-1
+Text Label 8850 8500 0    50   ~ 0
+T12-1
+Text Label 8850 8600 0    50   ~ 0
+T16-1
+Text Label 8850 8700 0    50   ~ 0
+T9+1
+Text Label 8850 8800 0    50   ~ 0
+T13+1
+Text Label 8850 8200 0    50   ~ 0
+T10+1
+Text Label 8850 9000 0    50   ~ 0
+T14+1
+Text Label 8850 9100 0    50   ~ 0
+T11+1
+Text Label 8850 9200 0    50   ~ 0
+T15+1
+Text Label 8850 9600 0    50   ~ 0
+T12+1
+Text Label 8850 10400 0    50   ~ 0
+T16+1
+Text Label 8850 10500 0    50   ~ 0
+T4-1
+Text Label 8850 10600 0    50   ~ 0
+T8-1
+Text Label 8850 10000 0    50   ~ 0
+T3-1
+Text Label 8850 11200 0    50   ~ 0
+T7-1
+Text Label 8850 7400 0    50   ~ 0
+T11-1
+Text Label 8850 7900 0    50   ~ 0
+T14-1
+Text Label 8850 8100 0    50   ~ 0
+T6-1
+Text Label 8850 8900 0    50   ~ 0
+T1-1
+Text Label 8850 9800 0    50   ~ 0
+T5-1
+Text Label 8850 9900 0    50   ~ 0
+T4+1
+Text Label 8850 10300 0    50   ~ 0
+T8+1
+Text Label 8850 10100 0    50   ~ 0
+T3+1
+Text Label 8850 12400 0    50   ~ 0
+T7+1
+Text Label 8850 11100 0    50   ~ 0
+T2+1
+Text Label 8850 7300 0    50   ~ 0
+T2-1
+Text Label 8850 12300 0    50   ~ 0
+T6+1
+Text Label 8850 12500 0    50   ~ 0
+T1+1
+Text Label 8850 10700 0    50   ~ 0
+T5+1
+Text Label 4850 8900 2    50   ~ 0
+T15-3
+Text Label 4850 10200 2    50   ~ 0
+T12-3
+Text Label 4850 9500 2    50   ~ 0
+T14-3
+Text Label 4850 9900 2    50   ~ 0
+T11-3
+Text Label 4850 10800 2    50   ~ 0
+T13-3
+Text Label 4850 11100 2    50   ~ 0
+T10-3
+Text Label 4850 11200 2    50   ~ 0
+T9-3
+$Comp
+L Connector_Generic:Conn_02x11_Odd_Even J8
+U 1 1 60759488
+P 10250 6500
+F 0 "J8" H 10300 7217 50  0000 C CNN
+F 1 "Conn_02x12_Odd_Even" H 10300 7126 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x11_P2.54mm_Vertical" H 10250 6500 50  0001 C CNN
+F 3 "~" H 10250 6500 50  0001 C CNN
+	1    10250 6500
+	1    0    0    -1  
+$EndComp
+Text Label 10050 6000 2    50   ~ 0
+extra1
+Text Label 10550 6000 0    50   ~ 0
+extra2
+Text Label 10050 6100 2    50   ~ 0
+extra3
+Text Label 10050 6200 2    50   ~ 0
+extra5
+Text Label 10050 6300 2    50   ~ 0
+extra7
+Text Label 10050 6400 2    50   ~ 0
+extra9
+Text Label 10050 6500 2    50   ~ 0
+extra11
+Text Label 10050 6600 2    50   ~ 0
+extra13
+Text Label 10050 6700 2    50   ~ 0
+extra15
+Text Label 10050 6800 2    50   ~ 0
+extra17
+Text Label 10050 6900 2    50   ~ 0
+extra19
+Text Label 10550 6900 0    50   ~ 0
+extra20
+Text Label 10550 6800 0    50   ~ 0
+extra18
+Text Label 10550 6700 0    50   ~ 0
+extra16
+Text Label 10550 6600 0    50   ~ 0
+extra14
+Text Label 10550 6500 0    50   ~ 0
+extra12
+Text Label 10550 6400 0    50   ~ 0
+extra10
+Text Label 10550 6300 0    50   ~ 0
+extra8
+Text Label 10550 6200 0    50   ~ 0
+extra6
+Text Label 10550 6100 0    50   ~ 0
+extra4
+Text Label 4850 7700 2    50   ~ 0
+extra1
+Text Label 4850 8100 2    50   ~ 0
+extra2
+Text Label 4850 8200 2    50   ~ 0
+extra3
+Text Label 4850 9300 2    50   ~ 0
+extra4
+Text Label 4850 7800 2    50   ~ 0
+extra5
+Text Label 8850 7800 0    50   ~ 0
+extra6
+Text Label 4850 9400 2    50   ~ 0
+extra8
+Text Label 4850 8500 2    50   ~ 0
+extra7
+Text Label 4850 8300 2    50   ~ 0
+extra9
+Text Label 4850 10700 2    50   ~ 0
+extra10
+Text Label 4850 9700 2    50   ~ 0
+extra11
+Text Label 4850 10100 2    50   ~ 0
+extra12
+Text Label 8850 9400 0    50   ~ 0
+extra13
+Text Label 8850 7700 0    50   ~ 0
+extra14
+Text Label 8850 9500 0    50   ~ 0
+extra15
+Text Label 8850 9300 0    50   ~ 0
+extra16
+Text Label 8850 9700 0    50   ~ 0
+extra17
+Text Label 8850 10200 0    50   ~ 0
+extra18
+Text Label 4850 10500 2    50   ~ 0
+extra19
+Text Label 8850 12200 0    50   ~ 0
+extra20
+Text Label 10050 7000 2    50   ~ 0
+gnd
+Text Label 10550 7000 0    50   ~ 0
+gnd
 $EndSCHEMATC
