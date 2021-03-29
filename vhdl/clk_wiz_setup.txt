@@ -1,0 +1,23 @@
+Device: Spartan 6 lx16
+Package: ftg256
+
+1/6
+Clocking Features: Frequency synthesis only
+Jitter optimization: balanced
+Primary input clock: 10 MHz
+Jitter: .01 UI
+Source: Single ended clock capable pin
+
+2/6
+CLK_OUT1: 100 MHz, 50% duty cycle, drives BUFG
+
+3/6
+Optional inputs/outputs: none
+
+4/6
+No override
+
+5/6
+No changes
+
+Add generated .xco file to project
