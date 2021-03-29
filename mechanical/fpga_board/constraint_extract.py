@@ -4,6 +4,9 @@ from operator import itemgetter
 with open("fpga_board.net","r") as f:
     lines = f.readlines()
 
+output = ""
+extract_failed = False
+
 pairs = []
 group = []
 for line in lines:
@@ -30,12 +33,18 @@ for each in pairs:
         transducersn[int(m[2])-1].append([int(m[0]),each[1]])
     else:
         print("error " + each)
+        extract_failed = True
 
 for i in range(5):
     p = sorted(transducersp[i],key=itemgetter(0))
     n = sorted(transducersn[i],key=itemgetter(0))
     for each in p:
-        print("NET tp"+str(i+1)+"["+str(each[0]-1)+"]\t LOC= \"" + str(each[1])+"\"\t | IOSTANDARD=LVCMOS33;")
+        output += "NET tp"+str(i+1)+"["+str(each[0]-1)+"]\t LOC= \"" + str(each[1])+"\"\t | IOSTANDARD=LVCMOS33;\n"
     for each in n:
-        print("NET tn"+str(i+1)+"["+str(each[0]-1)+"]\t LOC= \"" + str(each[1])+"\"\t | IOSTANDARD=LVCMOS33;")
+        output += "NET tn"+str(i+1)+"["+str(each[0]-1)+"]\t LOC= \"" + str(each[1])+"\"\t | IOSTANDARD=LVCMOS33;\n"
+
+if(not extract_failed):
+    with open("transducer_constraints.ucf", "w") as f:
+        f.write(output)
+        print("Success")
 
