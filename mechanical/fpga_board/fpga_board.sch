@@ -1499,41 +1499,41 @@ T12+1
 Text Label 8850 10400 0    50   ~ 0
 T16+1
 Text Label 8850 10500 0    50   ~ 0
-T4-1
-Text Label 8850 10600 0    50   ~ 0
 T8-1
+Text Label 8850 10600 0    50   ~ 0
+T4-1
 Text Label 8850 10000 0    50   ~ 0
-T3-1
-Text Label 8850 11200 0    50   ~ 0
 T7-1
+Text Label 8850 11200 0    50   ~ 0
+T3-1
 Text Label 8850 7400 0    50   ~ 0
 T11-1
 Text Label 8850 7900 0    50   ~ 0
 T14-1
 Text Label 8850 8100 0    50   ~ 0
-T6-1
-Text Label 8850 8900 0    50   ~ 0
-T1-1
-Text Label 8850 9800 0    50   ~ 0
-T5-1
-Text Label 8850 9900 0    50   ~ 0
-T4+1
-Text Label 8850 10300 0    50   ~ 0
-T8+1
-Text Label 8850 10100 0    50   ~ 0
-T3+1
-Text Label 8850 12400 0    50   ~ 0
-T7+1
-Text Label 8850 11100 0    50   ~ 0
-T2+1
-Text Label 8850 7300 0    50   ~ 0
 T2-1
-Text Label 8850 12300 0    50   ~ 0
+Text Label 8850 8900 0    50   ~ 0
+T5-1
+Text Label 8850 9800 0    50   ~ 0
+T1-1
+Text Label 8850 9900 0    50   ~ 0
+T8+1
+Text Label 8850 10300 0    50   ~ 0
+T4+1
+Text Label 8850 10100 0    50   ~ 0
+T7+1
+Text Label 8850 12400 0    50   ~ 0
+T3+1
+Text Label 8850 11100 0    50   ~ 0
 T6+1
+Text Label 8850 7300 0    50   ~ 0
+T6-1
+Text Label 8850 12300 0    50   ~ 0
+T2+1
 Text Label 8850 12500 0    50   ~ 0
-T1+1
-Text Label 8850 10700 0    50   ~ 0
 T5+1
+Text Label 8850 10700 0    50   ~ 0
+T1+1
 Text Label 4850 8900 2    50   ~ 0
 T15-3
 Text Label 4850 10200 2    50   ~ 0
