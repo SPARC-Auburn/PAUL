@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name FPGA_Board_Custom_Symbols)(type Legacy)(uri ${KIPRJMOD}/FPGA_Board_Custom_Symbols.lib)(options "")(descr ""))
 )

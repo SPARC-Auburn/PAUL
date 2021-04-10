@@ -1631,10 +1631,8 @@ Text Label 8850 9500 0    50   ~ 0
 extra15
 Text Label 8850 9300 0    50   ~ 0
 extra16
-Text Label 9550 9700 0    50   ~ 0
+Text Label 8850 9700 0    50   ~ 0
 extra17
-Text Label 8850 10200 0    50   ~ 0
-extra18
 Text Label 4850 10500 2    50   ~ 0
 extra19
 Text Label 8850 12200 0    50   ~ 0
@@ -1643,6 +1641,210 @@ Text Label 10050 7000 2    50   ~ 0
 gnd
 Text Label 10550 7000 0    50   ~ 0
 gnd
-Text Label 8850 9700 0    50   ~ 0
-glckorsomething
+$Comp
+L Regulator_Linear:MIC5504-1.2YM5 U4
+U 1 1 60702C48
+P 16650 5300
+F 0 "U4" H 16650 5667 50  0000 C CNN
+F 1 "MIC5504-1.2YM5" H 16650 5576 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 16650 4900 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf" H 16400 5550 50  0001 C CNN
+	1    16650 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:MIC5504-3.3YM5 U3
+U 1 1 6070665B
+P 16650 4250
+F 0 "U3" H 16650 4617 50  0000 C CNN
+F 1 "MIC5504-3.3YM5" H 16650 4526 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 16650 3850 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf" H 16400 4500 50  0001 C CNN
+	1    16650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Board_Custom_Symbols:SiT1602 U2
+U 1 1 607143AE
+P 14350 4650
+F 0 "U2" H 14350 4765 50  0000 C CNN
+F 1 "SiT1602" H 14350 4674 50  0000 C CNN
+F 2 "FPGA_Board_Footprints:SiT1602_7_5" H 14350 4650 50  0001 C CNN
+F 3 "" H 14350 4650 50  0001 C CNN
+	1    14350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J9
+U 1 1 60716400
+P 18600 4800
+F 0 "J9" H 18680 4842 50  0000 L CNN
+F 1 "Conn_01x01" H 18680 4751 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 18600 4800 50  0001 C CNN
+F 3 "~" H 18600 4800 50  0001 C CNN
+	1    18600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J10
+U 1 1 60716DB4
+P 18600 5000
+F 0 "J10" H 18680 5042 50  0000 L CNN
+F 1 "Conn_01x01" H 18680 4951 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 18600 5000 50  0001 C CNN
+F 3 "~" H 18600 5000 50  0001 C CNN
+	1    18600 5000
+	1    0    0    -1  
+$EndComp
+Text Label 18400 5000 2    50   ~ 0
+gnd
+Text Label 17050 5200 0    50   ~ 0
+vcc2
+Text Label 17050 4150 0    50   ~ 0
+vcc
+Text Label 16250 5200 2    50   ~ 0
+vcc
+Text Label 14000 5000 2    50   ~ 0
+gnd
+Text Label 14700 4800 0    50   ~ 0
+vcc
+NoConn ~ 14000 4800
+Text Label 16250 5400 2    50   ~ 0
+vcc
+Text Label 14700 5000 0    50   ~ 0
+clk
+$Comp
+L Device:C_Small C26
+U 1 1 6072E771
+P 14950 4900
+F 0 "C26" H 15042 4946 50  0000 L CNN
+F 1 "0u1" H 15042 4855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14950 4900 50  0001 C CNN
+F 3 "~" H 14950 4900 50  0001 C CNN
+	1    14950 4900
+	1    0    0    -1  
+$EndComp
+Text Label 14950 5000 3    50   ~ 0
+gnd
+Wire Wire Line
+	14700 4800 14950 4800
+Text Label 18400 4800 2    50   ~ 0
+vin
+Text Label 16250 4150 2    50   ~ 0
+vin
+Text Label 16250 4350 2    50   ~ 0
+vin
+$Comp
+L Device:C_Small C27
+U 1 1 607575F7
+P 15850 4400
+F 0 "C27" H 15942 4446 50  0000 L CNN
+F 1 "1u" H 15942 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15850 4400 50  0001 C CNN
+F 3 "~" H 15850 4400 50  0001 C CNN
+	1    15850 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15850 4150 15850 4300
+Wire Wire Line
+	15850 4500 15850 4600
+Wire Wire Line
+	16650 4600 16650 4550
+Text Label 16500 4600 2    50   ~ 0
+gnd
+$Comp
+L Device:C_Small C29
+U 1 1 60762DD9
+P 17250 4400
+F 0 "C29" H 17342 4446 50  0000 L CNN
+F 1 "1u" H 17342 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 17250 4400 50  0001 C CNN
+F 3 "~" H 17250 4400 50  0001 C CNN
+	1    17250 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17250 4300 17250 4150
+Wire Wire Line
+	17250 4150 17050 4150
+Wire Wire Line
+	17250 4500 17250 4600
+Wire Wire Line
+	17250 4600 16650 4600
+Connection ~ 16650 4600
+Wire Wire Line
+	15850 4150 16250 4150
+Wire Wire Line
+	15850 4600 16650 4600
+$Comp
+L Device:C_Small C30
+U 1 1 607754DB
+P 17250 5450
+F 0 "C30" H 17342 5496 50  0000 L CNN
+F 1 "1u" H 17342 5405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 17250 5450 50  0001 C CNN
+F 3 "~" H 17250 5450 50  0001 C CNN
+	1    17250 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17250 5350 17250 5200
+Wire Wire Line
+	17250 5200 17050 5200
+Wire Wire Line
+	17250 5550 17250 5650
+Wire Wire Line
+	17250 5650 16650 5650
+Wire Wire Line
+	16650 5650 16650 5600
+$Comp
+L Device:C_Small C28
+U 1 1 60782D4C
+P 15850 5450
+F 0 "C28" H 15942 5496 50  0000 L CNN
+F 1 "1u" H 15942 5405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15850 5450 50  0001 C CNN
+F 3 "~" H 15850 5450 50  0001 C CNN
+	1    15850 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15850 5350 15850 5200
+Wire Wire Line
+	15850 5200 16250 5200
+Wire Wire Line
+	15850 5550 15850 5650
+Wire Wire Line
+	15850 5650 16650 5650
+Connection ~ 16650 5650
+Text Label 16500 5650 2    50   ~ 0
+gnd
+Text Label 8850 10200 0    50   ~ 0
+clk
+NoConn ~ 10550 6800
+NoConn ~ 21850 6350
+NoConn ~ 21850 6450
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 608B9AF4
+P 18400 4800
+F 0 "#FLG0101" H 18400 4875 50  0001 C CNN
+F 1 "PWR_FLAG" H 18400 4973 50  0000 C CNN
+F 2 "" H 18400 4800 50  0001 C CNN
+F 3 "~" H 18400 4800 50  0001 C CNN
+	1    18400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 608B9E59
+P 18400 5000
+F 0 "#FLG0102" H 18400 5075 50  0001 C CNN
+F 1 "PWR_FLAG" H 18400 5173 50  0000 C CNN
+F 2 "" H 18400 5000 50  0001 C CNN
+F 3 "~" H 18400 5000 50  0001 C CNN
+	1    18400 5000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
