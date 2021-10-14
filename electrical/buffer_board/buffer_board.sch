@@ -1,0 +1,1810 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS541 U1
+U 1 1 61485F8E
+P 1800 1500
+F 0 "U1" H 1800 2481 50  0000 C CNN
+F 1 "74LS541" H 1800 2390 50  0000 C CNN
+F 2 "buffer_board:74HC541" H 1800 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS541" H 1800 1500 50  0001 C CNN
+	1    1800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS541 U2
+U 1 1 6148744C
+P 1800 3400
+F 0 "U2" H 1800 4381 50  0000 C CNN
+F 1 "74LS541" H 1800 4290 50  0000 C CNN
+F 2 "buffer_board:74HC541" H 1800 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS541" H 1800 3400 50  0001 C CNN
+	1    1800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS541 U4
+U 1 1 61487DD3
+P 4100 1500
+F 0 "U4" H 4100 2481 50  0000 C CNN
+F 1 "74LS541" H 4100 2390 50  0000 C CNN
+F 2 "buffer_board:74HC541" H 4100 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS541" H 4100 1500 50  0001 C CNN
+	1    4100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS541 U5
+U 1 1 61488702
+P 4100 3400
+F 0 "U5" H 4100 4381 50  0000 C CNN
+F 1 "74LS541" H 4100 4290 50  0000 C CNN
+F 2 "buffer_board:74HC541" H 4100 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS541" H 4100 3400 50  0001 C CNN
+	1    4100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS541 U8
+U 1 1 61488E9F
+P 6750 1500
+F 0 "U8" H 6750 2481 50  0000 C CNN
+F 1 "74LS541" H 6750 2390 50  0000 C CNN
+F 2 "buffer_board:74HC541" H 6750 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS541" H 6750 1500 50  0001 C CNN
+	1    6750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS541 U9
+U 1 1 61489813
+P 6750 3400
+F 0 "U9" H 6750 4381 50  0000 C CNN
+F 1 "74LS541" H 6750 4290 50  0000 C CNN
+F 2 "buffer_board:74HC541" H 6750 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS541" H 6750 3400 50  0001 C CNN
+	1    6750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS541 U3
+U 1 1 6148A364
+P 1800 5300
+F 0 "U3" H 1800 6281 50  0000 C CNN
+F 1 "74LS541" H 1800 6190 50  0000 C CNN
+F 2 "buffer_board:74HC541" H 1800 5300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS541" H 1800 5300 50  0001 C CNN
+	1    1800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS541 U6
+U 1 1 6148B068
+P 4100 5300
+F 0 "U6" H 4100 6281 50  0000 C CNN
+F 1 "74LS541" H 4100 6190 50  0000 C CNN
+F 2 "buffer_board:74HC541" H 4100 5300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS541" H 4100 5300 50  0001 C CNN
+	1    4100 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x18_Odd_Even J4
+U 1 1 614A6CE7
+P 12550 4100
+F 0 "J4" H 12600 5117 50  0000 C CNN
+F 1 "Conn_02x18_Odd_Even" H 12600 5026 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x18_P2.54mm_Vertical" H 12550 4100 50  0001 C CNN
+F 3 "~" H 12550 4100 50  0001 C CNN
+	1    12550 4100
+	1    0    0    -1  
+$EndComp
+Text Label 1800 2300 0    50   ~ 0
+gnd
+Text Label 4100 2300 0    50   ~ 0
+gnd
+Text Label 6750 2300 0    50   ~ 0
+gnd
+Text Label 1800 4200 0    50   ~ 0
+gnd
+Text Label 4100 4200 0    50   ~ 0
+gnd
+Text Label 6750 4200 0    50   ~ 0
+gnd
+Text Label 1800 6100 0    50   ~ 0
+gnd
+Text Label 4100 6100 0    50   ~ 0
+gnd
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 61536F8E
+P 9600 950
+F 0 "J1" H 9680 992 50  0000 L CNN
+F 1 "Conn_01x01" H 9680 901 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 9600 950 50  0001 C CNN
+F 3 "~" H 9600 950 50  0001 C CNN
+	1    9600 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 6153751E
+P 9600 1150
+F 0 "J2" H 9680 1192 50  0000 L CNN
+F 1 "Conn_01x01" H 9680 1101 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm" H 9600 1150 50  0001 C CNN
+F 3 "~" H 9600 1150 50  0001 C CNN
+	1    9600 1150
+	1    0    0    -1  
+$EndComp
+Text Label 9250 1100 0    50   ~ 0
+gnd
+Wire Wire Line
+	9400 1150 9250 1150
+Wire Wire Line
+	9250 1150 9250 1100
+Text Label 9250 850  0    50   ~ 0
+Vcc
+Wire Wire Line
+	9400 950  9250 950 
+Wire Wire Line
+	9250 950  9250 850 
+Text Label 1800 700  0    50   ~ 0
+Vcc
+Text Label 4100 700  0    50   ~ 0
+Vcc
+Text Label 6750 700  0    50   ~ 0
+Vcc
+Text Label 1800 2600 0    50   ~ 0
+Vcc
+Text Label 4100 2600 0    50   ~ 0
+Vcc
+Text Label 6750 2600 0    50   ~ 0
+Vcc
+Text Label 1800 4500 0    50   ~ 0
+Vcc
+Text Label 4100 4500 0    50   ~ 0
+Vcc
+$Comp
+L Connector_Generic:Conn_02x18_Odd_Even J3
+U 1 1 614A4B9F
+P 12550 1800
+F 0 "J3" H 12600 2817 50  0000 C CNN
+F 1 "Conn_02x18_Odd_Even" H 12600 2726 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x18_P2.54mm_Vertical" H 12550 1800 50  0001 C CNN
+F 3 "~" H 12550 1800 50  0001 C CNN
+	1    12550 1800
+	1    0    0    -1  
+$EndComp
+Text Label 1300 1900 2    50   ~ 0
+gnd
+Text Label 1300 2000 2    50   ~ 0
+gnd
+Text Label 3600 1900 2    50   ~ 0
+gnd
+Text Label 3600 2000 2    50   ~ 0
+gnd
+Text Label 6250 1900 2    50   ~ 0
+gnd
+Text Label 6250 2000 2    50   ~ 0
+gnd
+Text Label 1300 3800 2    50   ~ 0
+gnd
+Text Label 1300 3900 2    50   ~ 0
+gnd
+Text Label 3600 3800 2    50   ~ 0
+gnd
+Text Label 3600 3900 2    50   ~ 0
+gnd
+Text Label 6250 3800 2    50   ~ 0
+gnd
+Text Label 6250 3900 2    50   ~ 0
+gnd
+Text Label 1300 5700 2    50   ~ 0
+gnd
+Text Label 1300 5800 2    50   ~ 0
+gnd
+Text Label 3600 5700 2    50   ~ 0
+gnd
+Text Label 3600 5800 2    50   ~ 0
+gnd
+Text Label 14000 1000 2    50   ~ 0
+TOP_D1
+Text Label 14500 1000 0    50   ~ 0
+TOP_D2
+Text Label 14000 1100 2    50   ~ 0
+TOP_D3
+Text Label 14000 1200 2    50   ~ 0
+TOP_D5
+Text Label 14500 1100 0    50   ~ 0
+TOP_D4
+Text Label 14500 1200 0    50   ~ 0
+TOP_D6
+Text Label 14000 1300 2    50   ~ 0
+TOP_D7
+Text Label 14500 1300 0    50   ~ 0
+TOP_D8
+Text Label 14000 1400 2    50   ~ 0
+TOP_D9
+Text Label 14500 1400 0    50   ~ 0
+BOT_D1
+Text Label 14000 1500 2    50   ~ 0
+BOT_D2
+Text Label 14500 1500 0    50   ~ 0
+BOT_D3
+Text Label 14000 1600 2    50   ~ 0
+BOT_D4
+Text Label 14500 1600 0    50   ~ 0
+BOT_D5
+Text Label 14000 1700 2    50   ~ 0
+BOT_D6
+Text Label 14500 1700 0    50   ~ 0
+BOT_D7
+Text Label 14000 1800 2    50   ~ 0
+BOT_D8
+Text Label 14500 1800 0    50   ~ 0
+BOT_D9
+Text Label 14000 1900 2    50   ~ 0
+clk
+Text Label 14500 1900 0    50   ~ 0
+sync
+Text Label 14000 2000 2    50   ~ 0
+sel
+$Comp
+L Connector_Generic:Conn_02x11_Odd_Even J5
+U 1 1 61A50705
+P 14200 1500
+F 0 "J5" H 14250 2217 50  0000 C CNN
+F 1 "Conn_02x11_Odd_Even" H 14250 2126 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x11_P2.54mm_Vertical" H 14200 1500 50  0001 C CNN
+F 3 "~" H 14200 1500 50  0001 C CNN
+	1    14200 1500
+	1    0    0    -1  
+$EndComp
+Text Label 14500 2000 0    50   ~ 0
+X
+Text Label 12350 1000 2    50   ~ 0
+TOP_D1_OUT
+Text Label 12350 1200 2    50   ~ 0
+TOP_D2_OUT
+Text Label 12350 1400 2    50   ~ 0
+TOP_D3_OUT
+Text Label 12350 1800 2    50   ~ 0
+TOP_D5_OUT
+Text Label 12350 2200 2    50   ~ 0
+TOP_D7_OUT
+Text Label 12350 2600 2    50   ~ 0
+TOP_D9_OUT
+Text Label 12350 2000 2    50   ~ 0
+TOP_D6_OUT
+Text Label 12350 2400 2    50   ~ 0
+TOP_D8_OUT
+Text Label 12850 1000 0    50   ~ 0
+TOP_CLK1
+Text Label 12350 1100 2    50   ~ 0
+TOP_SYNC1
+Text Label 12850 1100 0    50   ~ 0
+TOP_SEL1
+Text Label 12850 1200 0    50   ~ 0
+TOP_CLK2
+Text Label 12850 1400 0    50   ~ 0
+TOP_CLK3
+Text Label 12850 1600 0    50   ~ 0
+TOP_CLK4
+Text Label 12850 2000 0    50   ~ 0
+TOP_CLK6
+Text Label 12850 2200 0    50   ~ 0
+TOP_CLK7
+Text Label 12850 2400 0    50   ~ 0
+TOP_CLK8
+Text Label 12850 2600 0    50   ~ 0
+TOP_CLK9
+Text Label 12850 1300 0    50   ~ 0
+TOP_SEL2
+Text Label 12850 1500 0    50   ~ 0
+TOP_SEL3
+Text Label 12850 1700 0    50   ~ 0
+TOP_SEL4
+Text Label 12850 1900 0    50   ~ 0
+TOP_SEL5
+Text Label 12850 2100 0    50   ~ 0
+TOP_SEL6
+Text Label 12850 2300 0    50   ~ 0
+TOP_SEL7
+Text Label 12850 2500 0    50   ~ 0
+TOP_SEL8
+Text Label 12850 2700 0    50   ~ 0
+TOP_SEL9
+Text Label 12350 1300 2    50   ~ 0
+TOP_SYNC2
+Text Label 12350 1500 2    50   ~ 0
+TOP_SYNC3
+Text Label 12350 1700 2    50   ~ 0
+TOP_SYNC4
+Text Label 12350 1900 2    50   ~ 0
+TOP_SYNC5
+Text Label 12350 2100 2    50   ~ 0
+TOP_SYNC6
+Text Label 12350 2300 2    50   ~ 0
+TOP_SYNC7
+Text Label 12350 2500 2    50   ~ 0
+TOP_SYNC8
+Text Label 12350 2700 2    50   ~ 0
+TOP_SYNC9
+Text Label 12350 3300 2    50   ~ 0
+BOT_D1_OUT
+Text Label 12350 3500 2    50   ~ 0
+BOT_D2_OUT
+Text Label 12350 3700 2    50   ~ 0
+BOT_D3_OUT
+Text Label 12350 3900 2    50   ~ 0
+BOT_D4_OUT
+Text Label 12350 4100 2    50   ~ 0
+BOT_D5_OUT
+Text Label 12350 4300 2    50   ~ 0
+BOT_D6_OUT
+Text Label 12350 4500 2    50   ~ 0
+BOT_D7_OUT
+Text Label 12350 4700 2    50   ~ 0
+BOT_D8_OUT
+Text Label 12350 4900 2    50   ~ 0
+BOT_D9_OUT
+Text Label 12850 3300 0    50   ~ 0
+BOT_CLK1
+Text Label 12850 3500 0    50   ~ 0
+BOT_CLK2
+Text Label 12850 3700 0    50   ~ 0
+BOT_CLK3
+Text Label 12850 3900 0    50   ~ 0
+BOT_CLK4
+Text Label 12850 4100 0    50   ~ 0
+BOT_CLK5
+Text Label 12850 4300 0    50   ~ 0
+BOT_CLK6
+Text Label 12850 4500 0    50   ~ 0
+BOT_CLK7
+Text Label 12850 4700 0    50   ~ 0
+BOT_CLK8
+Text Label 12850 4900 0    50   ~ 0
+BOT_CLK9
+Text Label 12850 3400 0    50   ~ 0
+BOT_SEL1
+Text Label 12350 3400 2    50   ~ 0
+BOT_SYNC1
+Text Label 12850 3600 0    50   ~ 0
+BOT_SEL2
+Text Label 12850 4000 0    50   ~ 0
+BOT_SEL4
+Text Label 12850 4200 0    50   ~ 0
+BOT_SEL5
+Text Label 12850 4400 0    50   ~ 0
+BOT_SEL6
+Text Label 12850 4600 0    50   ~ 0
+BOT_SEL7
+Text Label 12850 4800 0    50   ~ 0
+BOT_SEL8
+Text Label 12850 5000 0    50   ~ 0
+BOT_SEL9
+Text Label 12350 3600 2    50   ~ 0
+BOT_SYNC2
+Text Label 12350 3800 2    50   ~ 0
+BOT_SYNC3
+Text Label 12350 4200 2    50   ~ 0
+BOT_SYNC5
+Text Label 12350 4400 2    50   ~ 0
+BOT_SYNC6
+Text Label 12350 4600 2    50   ~ 0
+BOT_SYNC7
+Text Label 12350 4800 2    50   ~ 0
+BOT_SYNC8
+Text Label 12350 5000 2    50   ~ 0
+BOT_SYNC9
+$Comp
+L 74xx:74LS541 U7
+U 1 1 61B5DC87
+P 6750 5300
+F 0 "U7" H 6750 6281 50  0000 C CNN
+F 1 "74LS541" H 6750 6190 50  0000 C CNN
+F 2 "buffer_board:74HC541" H 6750 5300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS541" H 6750 5300 50  0001 C CNN
+	1    6750 5300
+	1    0    0    -1  
+$EndComp
+Text Label 6250 5700 2    50   ~ 0
+gnd
+Text Label 6250 5800 2    50   ~ 0
+gnd
+Text Label 6750 6100 0    50   ~ 0
+gnd
+Text Label 6750 4500 0    50   ~ 0
+Vcc
+Text Label 1300 1000 2    50   ~ 0
+TOP_D1
+Text Label 1300 1400 2    50   ~ 0
+TOP_D2
+Text Label 3600 1000 2    50   ~ 0
+TOP_D3
+Text Label 3600 1400 2    50   ~ 0
+TOP_D4
+Text Label 6250 1000 2    50   ~ 0
+TOP_D5
+Text Label 6250 1400 2    50   ~ 0
+TOP_D6
+Text Label 1300 2900 2    50   ~ 0
+TOP_D7
+Text Label 1300 3300 2    50   ~ 0
+TOP_D8
+Text Label 3600 2900 2    50   ~ 0
+TOP_D9
+Text Label 1300 1100 2    50   ~ 0
+clk
+Text Label 1300 1200 2    50   ~ 0
+sel
+Text Label 1300 1300 2    50   ~ 0
+sync
+Text Label 1300 1500 2    50   ~ 0
+clk
+Text Label 1300 1600 2    50   ~ 0
+sel
+Text Label 1300 1700 2    50   ~ 0
+sync
+Text Label 3600 1100 2    50   ~ 0
+clk
+Text Label 3600 1200 2    50   ~ 0
+sel
+Text Label 3600 1300 2    50   ~ 0
+sync
+Text Label 3600 1500 2    50   ~ 0
+clk
+Text Label 3600 1600 2    50   ~ 0
+sel
+Text Label 3600 1700 2    50   ~ 0
+sync
+Text Label 6250 1100 2    50   ~ 0
+clk
+Text Label 6250 1200 2    50   ~ 0
+sel
+Text Label 6250 1300 2    50   ~ 0
+sync
+Text Label 6250 1500 2    50   ~ 0
+clk
+Text Label 6250 1600 2    50   ~ 0
+sel
+Text Label 6250 1700 2    50   ~ 0
+sync
+Text Label 1300 3000 2    50   ~ 0
+clk
+Text Label 1300 3100 2    50   ~ 0
+sel
+Text Label 1300 3200 2    50   ~ 0
+sync
+Text Label 1300 3400 2    50   ~ 0
+clk
+Text Label 1300 3500 2    50   ~ 0
+sel
+Text Label 1300 3600 2    50   ~ 0
+sync
+Text Label 3600 3000 2    50   ~ 0
+clk
+Text Label 3600 3100 2    50   ~ 0
+sel
+Text Label 3600 3200 2    50   ~ 0
+sync
+Text Label 3600 3300 2    50   ~ 0
+BOT_D1
+Text Label 6250 2900 2    50   ~ 0
+BOT_D2
+Text Label 6250 3300 2    50   ~ 0
+BOT_D3
+Text Label 1300 4800 2    50   ~ 0
+BOT_D4
+Text Label 1300 5200 2    50   ~ 0
+BOT_D5
+Text Label 3600 4800 2    50   ~ 0
+BOT_D6
+Text Label 3600 5200 2    50   ~ 0
+BOT_D7
+Text Label 6250 4800 2    50   ~ 0
+BOT_D8
+Text Label 6250 5200 2    50   ~ 0
+BOT_D9
+Text Label 3600 3400 2    50   ~ 0
+clk
+Text Label 3600 3500 2    50   ~ 0
+sel
+Text Label 3600 3600 2    50   ~ 0
+sync
+Text Label 6250 3000 2    50   ~ 0
+clk
+Text Label 6250 3100 2    50   ~ 0
+sel
+Text Label 6250 3200 2    50   ~ 0
+sync
+Text Label 6250 3400 2    50   ~ 0
+clk
+Text Label 6250 3500 2    50   ~ 0
+sel
+Text Label 6250 3600 2    50   ~ 0
+sync
+Text Label 1300 4900 2    50   ~ 0
+clk
+Text Label 1300 5000 2    50   ~ 0
+sel
+Text Label 1300 5100 2    50   ~ 0
+sync
+Text Label 1300 5300 2    50   ~ 0
+clk
+Text Label 1300 5400 2    50   ~ 0
+sel
+Text Label 1300 5500 2    50   ~ 0
+sync
+Text Label 3600 4900 2    50   ~ 0
+clk
+Text Label 3600 5000 2    50   ~ 0
+sel
+Text Label 3600 5100 2    50   ~ 0
+sync
+Text Label 3600 5300 2    50   ~ 0
+clk
+Text Label 3600 5400 2    50   ~ 0
+sel
+Text Label 3600 5500 2    50   ~ 0
+sync
+Text Label 6250 4900 2    50   ~ 0
+clk
+Text Label 6250 5000 2    50   ~ 0
+sel
+Text Label 6250 5300 2    50   ~ 0
+clk
+Text Label 6250 5400 2    50   ~ 0
+sel
+Text Label 6250 5100 2    50   ~ 0
+sync
+Text Label 6250 5500 2    50   ~ 0
+sync
+$Comp
+L Device:R R6
+U 1 1 61CAD417
+P 8300 1850
+F 0 "R6" H 8230 1804 50  0000 R CNN
+F 1 "R" H 8230 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8230 1850 50  0001 C CNN
+F 3 "~" H 8300 1850 50  0001 C CNN
+	1    8300 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 61CB06E8
+P 8100 1850
+F 0 "R1" H 8170 1896 50  0000 L CNN
+F 1 "R" H 8170 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8030 1850 50  0001 C CNN
+F 3 "~" H 8100 1850 50  0001 C CNN
+	1    8100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 61CBEDB0
+P 8500 1850
+F 0 "R11" H 8430 1804 50  0000 R CNN
+F 1 "R" H 8430 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8430 1850 50  0001 C CNN
+F 3 "~" H 8500 1850 50  0001 C CNN
+	1    8500 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 61CBF12C
+P 8700 1850
+F 0 "R16" H 8630 1804 50  0000 R CNN
+F 1 "R" H 8630 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8630 1850 50  0001 C CNN
+F 3 "~" H 8700 1850 50  0001 C CNN
+	1    8700 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 61CBF453
+P 8900 1850
+F 0 "R21" H 8830 1804 50  0000 R CNN
+F 1 "R" H 8830 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8830 1850 50  0001 C CNN
+F 3 "~" H 8900 1850 50  0001 C CNN
+	1    8900 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 61CBF832
+P 9100 1850
+F 0 "R26" H 9030 1804 50  0000 R CNN
+F 1 "R" H 9030 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9030 1850 50  0001 C CNN
+F 3 "~" H 9100 1850 50  0001 C CNN
+	1    9100 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 61CBFB64
+P 9300 1850
+F 0 "R31" H 9230 1804 50  0000 R CNN
+F 1 "R" H 9230 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9230 1850 50  0001 C CNN
+F 3 "~" H 9300 1850 50  0001 C CNN
+	1    9300 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R36
+U 1 1 61CBFE74
+P 9500 1850
+F 0 "R36" H 9430 1804 50  0000 R CNN
+F 1 "R" H 9430 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9430 1850 50  0001 C CNN
+F 3 "~" H 9500 1850 50  0001 C CNN
+	1    9500 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R41
+U 1 1 61CC251C
+P 9700 1850
+F 0 "R41" H 9630 1804 50  0000 R CNN
+F 1 "R" H 9630 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9630 1850 50  0001 C CNN
+F 3 "~" H 9700 1850 50  0001 C CNN
+	1    9700 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R45
+U 1 1 61CC2AF0
+P 9900 1850
+F 0 "R45" H 9830 1804 50  0000 R CNN
+F 1 "R" H 9830 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9830 1850 50  0001 C CNN
+F 3 "~" H 9900 1850 50  0001 C CNN
+	1    9900 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R49
+U 1 1 61CC2F0A
+P 10100 1850
+F 0 "R49" H 10030 1804 50  0000 R CNN
+F 1 "R" H 10030 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10030 1850 50  0001 C CNN
+F 3 "~" H 10100 1850 50  0001 C CNN
+	1    10100 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R53
+U 1 1 61CC367D
+P 10300 1850
+F 0 "R53" H 10230 1804 50  0000 R CNN
+F 1 "R" H 10230 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10230 1850 50  0001 C CNN
+F 3 "~" H 10300 1850 50  0001 C CNN
+	1    10300 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R57
+U 1 1 61CC3CF2
+P 10500 1850
+F 0 "R57" H 10430 1804 50  0000 R CNN
+F 1 "R" H 10430 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10430 1850 50  0001 C CNN
+F 3 "~" H 10500 1850 50  0001 C CNN
+	1    10500 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R61
+U 1 1 61CC4394
+P 10700 1850
+F 0 "R61" H 10630 1804 50  0000 R CNN
+F 1 "R" H 10630 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10630 1850 50  0001 C CNN
+F 3 "~" H 10700 1850 50  0001 C CNN
+	1    10700 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R65
+U 1 1 61CC4A0D
+P 10900 1850
+F 0 "R65" H 10830 1804 50  0000 R CNN
+F 1 "R" H 10830 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10830 1850 50  0001 C CNN
+F 3 "~" H 10900 1850 50  0001 C CNN
+	1    10900 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R69
+U 1 1 61CC50AE
+P 11100 1850
+F 0 "R69" H 11030 1804 50  0000 R CNN
+F 1 "R" H 11030 1895 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 11030 1850 50  0001 C CNN
+F 3 "~" H 11100 1850 50  0001 C CNN
+	1    11100 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R70
+U 1 1 61CCE16B
+P 11100 3200
+F 0 "R70" H 11170 3246 50  0000 L CNN
+F 1 "R" H 11170 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 11030 3200 50  0001 C CNN
+F 3 "~" H 11100 3200 50  0001 C CNN
+	1    11100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R66
+U 1 1 61CCD9CA
+P 10900 3200
+F 0 "R66" H 10970 3246 50  0000 L CNN
+F 1 "R" H 10970 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10830 3200 50  0001 C CNN
+F 3 "~" H 10900 3200 50  0001 C CNN
+	1    10900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R62
+U 1 1 61CCD0E4
+P 10700 3200
+F 0 "R62" H 10770 3246 50  0000 L CNN
+F 1 "R" H 10770 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10630 3200 50  0001 C CNN
+F 3 "~" H 10700 3200 50  0001 C CNN
+	1    10700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R58
+U 1 1 61CCC834
+P 10500 3200
+F 0 "R58" H 10570 3246 50  0000 L CNN
+F 1 "R" H 10570 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10430 3200 50  0001 C CNN
+F 3 "~" H 10500 3200 50  0001 C CNN
+	1    10500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R54
+U 1 1 61CCC016
+P 10300 3200
+F 0 "R54" H 10370 3246 50  0000 L CNN
+F 1 "R" H 10370 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10230 3200 50  0001 C CNN
+F 3 "~" H 10300 3200 50  0001 C CNN
+	1    10300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R50
+U 1 1 61CCBAE2
+P 10100 3200
+F 0 "R50" H 10170 3246 50  0000 L CNN
+F 1 "R" H 10170 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10030 3200 50  0001 C CNN
+F 3 "~" H 10100 3200 50  0001 C CNN
+	1    10100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R46
+U 1 1 61CCB36C
+P 9900 3200
+F 0 "R46" H 9970 3246 50  0000 L CNN
+F 1 "R" H 9970 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9830 3200 50  0001 C CNN
+F 3 "~" H 9900 3200 50  0001 C CNN
+	1    9900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R42
+U 1 1 61CCADF8
+P 9700 3200
+F 0 "R42" H 9770 3246 50  0000 L CNN
+F 1 "R" H 9770 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9630 3200 50  0001 C CNN
+F 3 "~" H 9700 3200 50  0001 C CNN
+	1    9700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 61CCA8F7
+P 9500 3200
+F 0 "R37" H 9570 3246 50  0000 L CNN
+F 1 "R" H 9570 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9430 3200 50  0001 C CNN
+F 3 "~" H 9500 3200 50  0001 C CNN
+	1    9500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R32
+U 1 1 61CCA1F7
+P 9300 3200
+F 0 "R32" H 9370 3246 50  0000 L CNN
+F 1 "R" H 9370 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9230 3200 50  0001 C CNN
+F 3 "~" H 9300 3200 50  0001 C CNN
+	1    9300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 61CC9A73
+P 9100 3200
+F 0 "R27" H 9170 3246 50  0000 L CNN
+F 1 "R" H 9170 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9030 3200 50  0001 C CNN
+F 3 "~" H 9100 3200 50  0001 C CNN
+	1    9100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 61CC93ED
+P 8900 3200
+F 0 "R22" H 8970 3246 50  0000 L CNN
+F 1 "R" H 8970 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8830 3200 50  0001 C CNN
+F 3 "~" H 8900 3200 50  0001 C CNN
+	1    8900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 61CC8D5A
+P 8700 3200
+F 0 "R17" H 8770 3246 50  0000 L CNN
+F 1 "R" H 8770 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8630 3200 50  0001 C CNN
+F 3 "~" H 8700 3200 50  0001 C CNN
+	1    8700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 61CC8691
+P 8500 3200
+F 0 "R12" H 8570 3246 50  0000 L CNN
+F 1 "R" H 8570 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8430 3200 50  0001 C CNN
+F 3 "~" H 8500 3200 50  0001 C CNN
+	1    8500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 61CC7F1F
+P 8300 3200
+F 0 "R7" H 8370 3246 50  0000 L CNN
+F 1 "R" H 8370 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8230 3200 50  0001 C CNN
+F 3 "~" H 8300 3200 50  0001 C CNN
+	1    8300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 61CC727C
+P 8100 3200
+F 0 "R2" H 8170 3246 50  0000 L CNN
+F 1 "R" H 8170 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8030 3200 50  0001 C CNN
+F 3 "~" H 8100 3200 50  0001 C CNN
+	1    8100 3200
+	1    0    0    -1  
+$EndComp
+Text Label 2300 1000 0    50   ~ 0
+TOP_D1_R
+Text Label 2300 1400 0    50   ~ 0
+TOP_D2_R
+Text Label 4600 1000 0    50   ~ 0
+TOP_D3_R
+Text Label 4600 1400 0    50   ~ 0
+TOP_D4_R
+Text Label 7250 1000 0    50   ~ 0
+TOP_D5_R
+Text Label 7250 1400 0    50   ~ 0
+TOP_D6_R
+Text Label 2300 2900 0    50   ~ 0
+TOP_D7_R
+Text Label 2300 3300 0    50   ~ 0
+TOP_D8_R
+Text Label 4600 2900 0    50   ~ 0
+TOP_D9_R
+Text Label 4600 3300 0    50   ~ 0
+BOT_D1_R
+Text Label 7250 3300 0    50   ~ 0
+BOT_D3_R
+Text Label 7250 2900 0    50   ~ 0
+BOT_D2_R
+Text Label 2300 4800 0    50   ~ 0
+BOT_D4_R
+Text Label 2300 5200 0    50   ~ 0
+BOT_D5_R
+Text Label 4600 4800 0    50   ~ 0
+BOT_D6_R
+Text Label 4600 5200 0    50   ~ 0
+BOT_D7_R
+Text Label 7250 4800 0    50   ~ 0
+BOT_D8_R
+Text Label 7250 5200 0    50   ~ 0
+BOT_D9_R
+Text Label 8100 1700 1    50   ~ 0
+TOP_D1_R
+Text Label 8900 1700 1    50   ~ 0
+TOP_D2_R
+Text Label 9700 1700 1    50   ~ 0
+TOP_D3_R
+Text Label 10500 1700 1    50   ~ 0
+TOP_D4_R
+Text Label 8100 3050 1    50   ~ 0
+TOP_D5_R
+Text Label 8900 3050 1    50   ~ 0
+TOP_D6_R
+Text Label 9700 3050 1    50   ~ 0
+TOP_D7_R
+Text Label 10500 3050 1    50   ~ 0
+TOP_D8_R
+Text Label 2300 1100 0    50   ~ 0
+TOP_CLK1_R
+Text Label 4600 1100 0    50   ~ 0
+TOP_CLK3_R
+Text Label 2300 1500 0    50   ~ 0
+TOP_CLK2_R
+Text Label 4600 1500 0    50   ~ 0
+TOP_CLK4_R
+Text Label 7250 1100 0    50   ~ 0
+TOP_CLK5_R
+Text Label 7250 1500 0    50   ~ 0
+TOP_CLK6_R
+Text Label 2300 3000 0    50   ~ 0
+TOP_CLK7_R
+Text Label 2300 3400 0    50   ~ 0
+TOP_CLK8_R
+Text Label 4600 3000 0    50   ~ 0
+TOP_CLK9_R
+Text Label 4600 3400 0    50   ~ 0
+BOT_CLK1_R
+Text Label 7250 3000 0    50   ~ 0
+BOT_CLK2_R
+Text Label 7250 3400 0    50   ~ 0
+BOT_CLK3_R
+Text Label 2300 4900 0    50   ~ 0
+BOT_CLK4_R
+Text Label 2300 5300 0    50   ~ 0
+BOT_CLK5_R
+Text Label 4600 4900 0    50   ~ 0
+BOT_CLK6_R
+Text Label 4600 5300 0    50   ~ 0
+BOT_CLK7_R
+Text Label 7250 4900 0    50   ~ 0
+BOT_CLK8_R
+Text Label 7250 5300 0    50   ~ 0
+BOT_CLK9_R
+Text Label 8300 1700 1    50   ~ 0
+TOP_CLK1_R
+Text Label 9100 1700 1    50   ~ 0
+TOP_CLK2_R
+Text Label 9900 1700 1    50   ~ 0
+TOP_CLK3_R
+Text Label 10700 1700 1    50   ~ 0
+TOP_CLK4_R
+Text Label 8300 3050 1    50   ~ 0
+TOP_CLK5_R
+Text Label 9100 3050 1    50   ~ 0
+TOP_CLK6_R
+Text Label 9900 3050 1    50   ~ 0
+TOP_CLK7_R
+Text Label 10700 3050 1    50   ~ 0
+TOP_CLK8_R
+Text Label 2300 1200 0    50   ~ 0
+TOP_SEL1_R
+Text Label 2300 1300 0    50   ~ 0
+TOP_SYNC1_R
+Text Label 2300 1600 0    50   ~ 0
+TOP_SEL2_R
+Text Label 4600 1200 0    50   ~ 0
+TOP_SEL3_R
+Text Label 2300 1700 0    50   ~ 0
+TOP_SYNC2_R
+Text Label 8500 1700 1    50   ~ 0
+TOP_SEL1_R
+Text Label 8700 1700 1    50   ~ 0
+TOP_SYNC1_R
+Text Label 9300 1700 1    50   ~ 0
+TOP_SEL2_R
+Text Label 9500 1700 1    50   ~ 0
+TOP_SYNC2_R
+Text Label 4600 1300 0    50   ~ 0
+TOP_SYNC3_R
+Text Label 4600 1700 0    50   ~ 0
+TOP_SYNC4_R
+Text Label 4600 1600 0    50   ~ 0
+TOP_SEL4_R
+Text Label 10100 1700 1    50   ~ 0
+TOP_SEL3_R
+Text Label 10300 1700 1    50   ~ 0
+TOP_SYNC3_R
+Text Label 10900 1700 1    50   ~ 0
+TOP_SEL4_R
+Text Label 11100 1700 1    50   ~ 0
+TOP_SYNC4_R
+Text Label 7250 1200 0    50   ~ 0
+TOP_SEL5_R
+Text Label 7250 1600 0    50   ~ 0
+TOP_SEL6_R
+Text Label 7250 1300 0    50   ~ 0
+TOP_SYNC5_R
+Text Label 7250 1700 0    50   ~ 0
+TOP_SYNC6_R
+Text Label 8500 3050 1    50   ~ 0
+TOP_SEL5_R
+Text Label 8700 3050 1    50   ~ 0
+TOP_SYNC5_R
+Text Label 9300 3050 1    50   ~ 0
+TOP_SEL6_R
+Text Label 9500 3050 1    50   ~ 0
+TOP_SYNC6_R
+Text Label 2300 3100 0    50   ~ 0
+TOP_SEL7_R
+Text Label 2300 3200 0    50   ~ 0
+TOP_SYNC7_R
+Text Label 2300 3500 0    50   ~ 0
+TOP_SEL8_R
+Text Label 2300 3600 0    50   ~ 0
+TOP_SYNC8_R
+Text Label 4600 3100 0    50   ~ 0
+TOP_SEL9_R
+Text Label 4600 3200 0    50   ~ 0
+TOP_SYNC9_R
+Text Label 10100 3050 1    50   ~ 0
+TOP_SEL7_R
+Text Label 10300 3050 1    50   ~ 0
+TOP_SYNC7_R
+Text Label 10900 3050 1    50   ~ 0
+TOP_SEL8_R
+Text Label 11100 3050 1    50   ~ 0
+TOP_SYNC8_R
+Text Label 4600 3500 0    50   ~ 0
+BOT_SEL1_R
+Text Label 4600 3600 0    50   ~ 0
+BOT_SYNC1_R
+Text Label 7250 3100 0    50   ~ 0
+BOT_SEL2_R
+Text Label 7250 3200 0    50   ~ 0
+BOT_SYNC2_R
+Text Label 7250 3500 0    50   ~ 0
+BOT_SEL3_R
+Text Label 7250 3600 0    50   ~ 0
+BOT_SYNC3_R
+Text Label 2300 5000 0    50   ~ 0
+BOT_SEL4_R
+Text Label 2300 5100 0    50   ~ 0
+BOT_SYNC4_R
+Text Label 2300 5400 0    50   ~ 0
+BOT_SEL5_R
+Text Label 2300 5500 0    50   ~ 0
+BOT_SYNC5_R
+Text Label 4600 5100 0    50   ~ 0
+BOT_SYNC6_R
+Text Label 4600 5000 0    50   ~ 0
+BOT_SEL6_R
+Text Label 4600 5400 0    50   ~ 0
+BOT_SEL7_R
+Text Label 4600 5500 0    50   ~ 0
+BOT_SYNC7_R
+Text Label 7250 5000 0    50   ~ 0
+BOT_SEL8_R
+Text Label 7250 5100 0    50   ~ 0
+BOT_SYNC8_R
+Text Label 7250 5400 0    50   ~ 0
+BOT_SEL9_R
+Text Label 7250 5500 0    50   ~ 0
+BOT_SYNC9_R
+Text Label 8100 2000 3    50   ~ 0
+TOP_D1_OUT
+Text Label 8300 2000 3    50   ~ 0
+TOP_CLK1
+Text Label 8500 2000 3    50   ~ 0
+TOP_SEL1
+Text Label 8700 2000 3    50   ~ 0
+TOP_SYNC1
+Text Label 9100 2000 3    50   ~ 0
+TOP_CLK2
+Text Label 9500 2000 3    50   ~ 0
+TOP_SYNC2
+Text Label 8900 2000 3    50   ~ 0
+TOP_D2_OUT
+Text Label 9300 2000 3    50   ~ 0
+TOP_SEL2
+Text Label 9700 2000 3    50   ~ 0
+TOP_D3_OUT
+Text Label 9900 2000 3    50   ~ 0
+TOP_CLK3
+Text Label 10300 2000 3    50   ~ 0
+TOP_SYNC3
+Text Label 10100 2000 3    50   ~ 0
+TOP_SEL3
+Text Label 12350 1600 2    50   ~ 0
+TOP_D4_OUT
+Text Label 10500 2000 3    50   ~ 0
+TOP_D4_OUT
+Text Label 10700 2000 3    50   ~ 0
+TOP_CLK4
+Text Label 11100 2000 3    50   ~ 0
+TOP_SYNC4
+Text Label 10900 2000 3    50   ~ 0
+TOP_SEL4
+Text Label 8100 3350 3    50   ~ 0
+TOP_D5_OUT
+Text Label 8900 3350 3    50   ~ 0
+TOP_D6_OUT
+Text Label 9700 3350 3    50   ~ 0
+TOP_D7_OUT
+Text Label 10500 3350 3    50   ~ 0
+TOP_D8_OUT
+Text Label 12850 1800 0    50   ~ 0
+TOP_CLK5
+Text Label 8300 3350 3    50   ~ 0
+TOP_CLK5
+Text Label 8700 3350 3    50   ~ 0
+TOP_SYNC5
+Text Label 8500 3350 3    50   ~ 0
+TOP_SEL5
+Text Label 9300 3350 3    50   ~ 0
+TOP_SEL6
+Text Label 9100 3350 3    50   ~ 0
+TOP_CLK6
+Text Label 9500 3350 3    50   ~ 0
+TOP_SYNC6
+Text Label 10100 3350 3    50   ~ 0
+TOP_SEL7
+Text Label 9900 3350 3    50   ~ 0
+TOP_CLK7
+Text Label 10300 3350 3    50   ~ 0
+TOP_SYNC7
+Text Label 10700 3350 3    50   ~ 0
+TOP_CLK8
+Text Label 11100 3350 3    50   ~ 0
+TOP_SYNC8
+Text Label 10900 3350 3    50   ~ 0
+TOP_SEL8
+Text Label 9500 7250 1    50   ~ 0
+BOT_SYNC9_R
+Text Label 9300 7250 1    50   ~ 0
+BOT_SEL9_R
+Text Label 8700 7250 1    50   ~ 0
+BOT_SYNC8_R
+Text Label 8500 7250 1    50   ~ 0
+BOT_SEL8_R
+Text Label 11100 5800 1    50   ~ 0
+BOT_SYNC7_R
+Text Label 10900 5800 1    50   ~ 0
+BOT_SEL7_R
+Text Label 10300 5800 1    50   ~ 0
+BOT_SYNC6_R
+Text Label 10100 5800 1    50   ~ 0
+BOT_SEL6_R
+Text Label 9500 5800 1    50   ~ 0
+BOT_SYNC5_R
+Text Label 9300 5800 1    50   ~ 0
+BOT_SEL5_R
+Text Label 8700 5800 1    50   ~ 0
+BOT_SYNC4_R
+Text Label 8500 5800 1    50   ~ 0
+BOT_SEL4_R
+Text Label 11100 4450 1    50   ~ 0
+BOT_SYNC3_R
+Text Label 10900 4450 1    50   ~ 0
+BOT_SEL3_R
+Text Label 10300 4450 1    50   ~ 0
+BOT_SYNC2_R
+Text Label 10100 4450 1    50   ~ 0
+BOT_SEL2_R
+Text Label 9500 4450 1    50   ~ 0
+BOT_SYNC1_R
+Text Label 9300 4450 1    50   ~ 0
+BOT_SEL1_R
+Text Label 8700 4450 1    50   ~ 0
+TOP_SYNC9_R
+Text Label 8500 4450 1    50   ~ 0
+TOP_SEL9_R
+Text Label 9100 7250 1    50   ~ 0
+BOT_CLK9_R
+Text Label 8300 7250 1    50   ~ 0
+BOT_CLK8_R
+Text Label 10700 5800 1    50   ~ 0
+BOT_CLK7_R
+Text Label 9900 5800 1    50   ~ 0
+BOT_CLK6_R
+Text Label 9100 5800 1    50   ~ 0
+BOT_CLK5_R
+Text Label 8300 5800 1    50   ~ 0
+BOT_CLK4_R
+Text Label 10700 4450 1    50   ~ 0
+BOT_CLK3_R
+Text Label 9900 4450 1    50   ~ 0
+BOT_CLK2_R
+Text Label 9100 4450 1    50   ~ 0
+BOT_CLK1_R
+Text Label 8300 4450 1    50   ~ 0
+TOP_CLK9_R
+Text Label 8900 7250 1    50   ~ 0
+BOT_D9_R
+Text Label 8100 7250 1    50   ~ 0
+BOT_D8_R
+$Comp
+L Device:R R40
+U 1 1 61E97F63
+P 9500 7400
+F 0 "R40" H 9570 7446 50  0000 L CNN
+F 1 "R" H 9570 7355 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9430 7400 50  0001 C CNN
+F 3 "~" H 9500 7400 50  0001 C CNN
+	1    9500 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R35
+U 1 1 61E97047
+P 9300 7400
+F 0 "R35" H 9370 7446 50  0000 L CNN
+F 1 "R" H 9370 7355 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9230 7400 50  0001 C CNN
+F 3 "~" H 9300 7400 50  0001 C CNN
+	1    9300 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 61E960C6
+P 9100 7400
+F 0 "R30" H 9170 7446 50  0000 L CNN
+F 1 "R" H 9170 7355 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9030 7400 50  0001 C CNN
+F 3 "~" H 9100 7400 50  0001 C CNN
+	1    9100 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 61E95176
+P 8900 7400
+F 0 "R25" H 8970 7446 50  0000 L CNN
+F 1 "R" H 8970 7355 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8830 7400 50  0001 C CNN
+F 3 "~" H 8900 7400 50  0001 C CNN
+	1    8900 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 61E9411F
+P 8700 7400
+F 0 "R20" H 8770 7446 50  0000 L CNN
+F 1 "R" H 8770 7355 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8630 7400 50  0001 C CNN
+F 3 "~" H 8700 7400 50  0001 C CNN
+	1    8700 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 61E931B1
+P 8500 7400
+F 0 "R15" H 8570 7446 50  0000 L CNN
+F 1 "R" H 8570 7355 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8430 7400 50  0001 C CNN
+F 3 "~" H 8500 7400 50  0001 C CNN
+	1    8500 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 61E921E2
+P 8300 7400
+F 0 "R10" H 8370 7446 50  0000 L CNN
+F 1 "R" H 8370 7355 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8230 7400 50  0001 C CNN
+F 3 "~" H 8300 7400 50  0001 C CNN
+	1    8300 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 61E90DF4
+P 8100 7400
+F 0 "R5" H 8170 7446 50  0000 L CNN
+F 1 "R" H 8170 7355 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8030 7400 50  0001 C CNN
+F 3 "~" H 8100 7400 50  0001 C CNN
+	1    8100 7400
+	1    0    0    -1  
+$EndComp
+Text Label 10500 5800 1    50   ~ 0
+BOT_D7_R
+Text Label 9700 5800 1    50   ~ 0
+BOT_D6_R
+Text Label 8900 5800 1    50   ~ 0
+BOT_D5_R
+Text Label 8100 5800 1    50   ~ 0
+BOT_D4_R
+Text Label 10500 4450 1    50   ~ 0
+BOT_D3_R
+Text Label 9700 4450 1    50   ~ 0
+BOT_D2_R
+Text Label 8900 4450 1    50   ~ 0
+BOT_D1_R
+Text Label 8100 4450 1    50   ~ 0
+TOP_D9_R
+$Comp
+L Device:R R4
+U 1 1 61D21414
+P 8100 5950
+F 0 "R4" H 8170 5996 50  0000 L CNN
+F 1 "R" H 8170 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8030 5950 50  0001 C CNN
+F 3 "~" H 8100 5950 50  0001 C CNN
+	1    8100 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 61D2140E
+P 8300 5950
+F 0 "R9" H 8370 5996 50  0000 L CNN
+F 1 "R" H 8370 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8230 5950 50  0001 C CNN
+F 3 "~" H 8300 5950 50  0001 C CNN
+	1    8300 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 61D21408
+P 8500 5950
+F 0 "R14" H 8570 5996 50  0000 L CNN
+F 1 "R" H 8570 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8430 5950 50  0001 C CNN
+F 3 "~" H 8500 5950 50  0001 C CNN
+	1    8500 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 61D21402
+P 8700 5950
+F 0 "R19" H 8770 5996 50  0000 L CNN
+F 1 "R" H 8770 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8630 5950 50  0001 C CNN
+F 3 "~" H 8700 5950 50  0001 C CNN
+	1    8700 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 61D213FC
+P 8900 5950
+F 0 "R24" H 8970 5996 50  0000 L CNN
+F 1 "R" H 8970 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8830 5950 50  0001 C CNN
+F 3 "~" H 8900 5950 50  0001 C CNN
+	1    8900 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 61D213F6
+P 9100 5950
+F 0 "R29" H 9170 5996 50  0000 L CNN
+F 1 "R" H 9170 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9030 5950 50  0001 C CNN
+F 3 "~" H 9100 5950 50  0001 C CNN
+	1    9100 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 61D213F0
+P 9300 5950
+F 0 "R34" H 9370 5996 50  0000 L CNN
+F 1 "R" H 9370 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9230 5950 50  0001 C CNN
+F 3 "~" H 9300 5950 50  0001 C CNN
+	1    9300 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R39
+U 1 1 61D213EA
+P 9500 5950
+F 0 "R39" H 9570 5996 50  0000 L CNN
+F 1 "R" H 9570 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9430 5950 50  0001 C CNN
+F 3 "~" H 9500 5950 50  0001 C CNN
+	1    9500 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R44
+U 1 1 61D213E4
+P 9700 5950
+F 0 "R44" H 9770 5996 50  0000 L CNN
+F 1 "R" H 9770 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9630 5950 50  0001 C CNN
+F 3 "~" H 9700 5950 50  0001 C CNN
+	1    9700 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R48
+U 1 1 61D213DE
+P 9900 5950
+F 0 "R48" H 9970 5996 50  0000 L CNN
+F 1 "R" H 9970 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9830 5950 50  0001 C CNN
+F 3 "~" H 9900 5950 50  0001 C CNN
+	1    9900 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R52
+U 1 1 61D213D8
+P 10100 5950
+F 0 "R52" H 10170 5996 50  0000 L CNN
+F 1 "R" H 10170 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10030 5950 50  0001 C CNN
+F 3 "~" H 10100 5950 50  0001 C CNN
+	1    10100 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R56
+U 1 1 61D213D2
+P 10300 5950
+F 0 "R56" H 10370 5996 50  0000 L CNN
+F 1 "R" H 10370 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10230 5950 50  0001 C CNN
+F 3 "~" H 10300 5950 50  0001 C CNN
+	1    10300 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R60
+U 1 1 61D213CC
+P 10500 5950
+F 0 "R60" H 10570 5996 50  0000 L CNN
+F 1 "R" H 10570 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10430 5950 50  0001 C CNN
+F 3 "~" H 10500 5950 50  0001 C CNN
+	1    10500 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R64
+U 1 1 61D213C6
+P 10700 5950
+F 0 "R64" H 10770 5996 50  0000 L CNN
+F 1 "R" H 10770 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10630 5950 50  0001 C CNN
+F 3 "~" H 10700 5950 50  0001 C CNN
+	1    10700 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R68
+U 1 1 61D213C0
+P 10900 5950
+F 0 "R68" H 10970 5996 50  0000 L CNN
+F 1 "R" H 10970 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10830 5950 50  0001 C CNN
+F 3 "~" H 10900 5950 50  0001 C CNN
+	1    10900 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R72
+U 1 1 61D213BA
+P 11100 5950
+F 0 "R72" H 11170 5996 50  0000 L CNN
+F 1 "R" H 11170 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 11030 5950 50  0001 C CNN
+F 3 "~" H 11100 5950 50  0001 C CNN
+	1    11100 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 61D179EA
+P 8100 4600
+F 0 "R3" H 8170 4646 50  0000 L CNN
+F 1 "R" H 8170 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8030 4600 50  0001 C CNN
+F 3 "~" H 8100 4600 50  0001 C CNN
+	1    8100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 61D179E4
+P 8300 4600
+F 0 "R8" H 8370 4646 50  0000 L CNN
+F 1 "R" H 8370 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8230 4600 50  0001 C CNN
+F 3 "~" H 8300 4600 50  0001 C CNN
+	1    8300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 61D179DE
+P 8500 4600
+F 0 "R13" H 8570 4646 50  0000 L CNN
+F 1 "R" H 8570 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8430 4600 50  0001 C CNN
+F 3 "~" H 8500 4600 50  0001 C CNN
+	1    8500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 61D179D8
+P 8700 4600
+F 0 "R18" H 8770 4646 50  0000 L CNN
+F 1 "R" H 8770 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8630 4600 50  0001 C CNN
+F 3 "~" H 8700 4600 50  0001 C CNN
+	1    8700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 61D179D2
+P 8900 4600
+F 0 "R23" H 8970 4646 50  0000 L CNN
+F 1 "R" H 8970 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8830 4600 50  0001 C CNN
+F 3 "~" H 8900 4600 50  0001 C CNN
+	1    8900 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 61D179CC
+P 9100 4600
+F 0 "R28" H 9170 4646 50  0000 L CNN
+F 1 "R" H 9170 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9030 4600 50  0001 C CNN
+F 3 "~" H 9100 4600 50  0001 C CNN
+	1    9100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 61D179C6
+P 9300 4600
+F 0 "R33" H 9370 4646 50  0000 L CNN
+F 1 "R" H 9370 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9230 4600 50  0001 C CNN
+F 3 "~" H 9300 4600 50  0001 C CNN
+	1    9300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R38
+U 1 1 61D179C0
+P 9500 4600
+F 0 "R38" H 9570 4646 50  0000 L CNN
+F 1 "R" H 9570 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9430 4600 50  0001 C CNN
+F 3 "~" H 9500 4600 50  0001 C CNN
+	1    9500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R43
+U 1 1 61D179BA
+P 9700 4600
+F 0 "R43" H 9770 4646 50  0000 L CNN
+F 1 "R" H 9770 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9630 4600 50  0001 C CNN
+F 3 "~" H 9700 4600 50  0001 C CNN
+	1    9700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R47
+U 1 1 61D179B4
+P 9900 4600
+F 0 "R47" H 9970 4646 50  0000 L CNN
+F 1 "R" H 9970 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9830 4600 50  0001 C CNN
+F 3 "~" H 9900 4600 50  0001 C CNN
+	1    9900 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R51
+U 1 1 61D179AE
+P 10100 4600
+F 0 "R51" H 10170 4646 50  0000 L CNN
+F 1 "R" H 10170 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10030 4600 50  0001 C CNN
+F 3 "~" H 10100 4600 50  0001 C CNN
+	1    10100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R55
+U 1 1 61D179A8
+P 10300 4600
+F 0 "R55" H 10370 4646 50  0000 L CNN
+F 1 "R" H 10370 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10230 4600 50  0001 C CNN
+F 3 "~" H 10300 4600 50  0001 C CNN
+	1    10300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R59
+U 1 1 61D179A2
+P 10500 4600
+F 0 "R59" H 10570 4646 50  0000 L CNN
+F 1 "R" H 10570 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10430 4600 50  0001 C CNN
+F 3 "~" H 10500 4600 50  0001 C CNN
+	1    10500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R63
+U 1 1 61D1799C
+P 10700 4600
+F 0 "R63" H 10770 4646 50  0000 L CNN
+F 1 "R" H 10770 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10630 4600 50  0001 C CNN
+F 3 "~" H 10700 4600 50  0001 C CNN
+	1    10700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R67
+U 1 1 61D17996
+P 10900 4600
+F 0 "R67" H 10970 4646 50  0000 L CNN
+F 1 "R" H 10970 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10830 4600 50  0001 C CNN
+F 3 "~" H 10900 4600 50  0001 C CNN
+	1    10900 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R71
+U 1 1 61D17990
+P 11100 4600
+F 0 "R71" H 11170 4646 50  0000 L CNN
+F 1 "R" H 11170 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 11030 4600 50  0001 C CNN
+F 3 "~" H 11100 4600 50  0001 C CNN
+	1    11100 4600
+	1    0    0    -1  
+$EndComp
+Text Label 8300 4750 3    50   ~ 0
+TOP_CLK9
+Text Label 8100 4750 3    50   ~ 0
+TOP_D9_OUT
+Text Label 8500 4750 3    50   ~ 0
+TOP_SEL9
+Text Label 8700 4750 3    50   ~ 0
+TOP_SYNC9
+Text Label 8900 4750 3    50   ~ 0
+BOT_D1_OUT
+Text Label 9700 4750 3    50   ~ 0
+BOT_D2_OUT
+Text Label 10500 4750 3    50   ~ 0
+BOT_D3_OUT
+Text Label 8100 6100 3    50   ~ 0
+BOT_D4_OUT
+Text Label 8900 6100 3    50   ~ 0
+BOT_D5_OUT
+Text Label 10500 6100 3    50   ~ 0
+BOT_D7_OUT
+Text Label 8100 7550 3    50   ~ 0
+BOT_D8_OUT
+Text Label 8900 7550 3    50   ~ 0
+BOT_D9_OUT
+Text Label 9700 6100 3    50   ~ 0
+BOT_D6_OUT
+Text Label 9900 4750 3    50   ~ 0
+BOT_CLK2
+Text Label 10100 4750 3    50   ~ 0
+BOT_SEL2
+Text Label 10300 4750 3    50   ~ 0
+BOT_SYNC2
+Text Label 10700 4750 3    50   ~ 0
+BOT_CLK3
+Text Label 12850 3800 0    50   ~ 0
+BOT_SEL3
+Text Label 10900 4750 3    50   ~ 0
+BOT_SEL3
+Text Label 9100 4750 3    50   ~ 0
+BOT_CLK1
+Text Label 9300 4750 3    50   ~ 0
+BOT_SEL1
+Text Label 9500 4750 3    50   ~ 0
+BOT_SYNC1
+Text Label 11100 4750 3    50   ~ 0
+BOT_SYNC3
+Text Label 8300 6100 3    50   ~ 0
+BOT_CLK4
+Text Label 8500 6100 3    50   ~ 0
+BOT_SEL4
+Text Label 12350 4000 2    50   ~ 0
+BOT_SYNC4
+Text Label 8700 6100 3    50   ~ 0
+BOT_SYNC4
+Text Label 9100 6100 3    50   ~ 0
+BOT_CLK5
+Text Label 9300 6100 3    50   ~ 0
+BOT_SEL5
+Text Label 9500 6100 3    50   ~ 0
+BOT_SYNC5
+Text Label 9900 6100 3    50   ~ 0
+BOT_CLK6
+Text Label 10100 6100 3    50   ~ 0
+BOT_SEL6
+Text Label 10300 6100 3    50   ~ 0
+BOT_SYNC6
+Text Label 11100 6100 3    50   ~ 0
+BOT_SYNC7
+Text Label 10700 6100 3    50   ~ 0
+BOT_CLK7
+Text Label 10900 6100 3    50   ~ 0
+BOT_SEL7
+Text Label 8300 7550 3    50   ~ 0
+BOT_CLK8
+Text Label 8500 7550 3    50   ~ 0
+BOT_SEL8
+Text Label 8700 7550 3    50   ~ 0
+BOT_SYNC8
+Text Label 9300 7550 3    50   ~ 0
+BOT_SEL9
+Text Label 9100 7550 3    50   ~ 0
+BOT_CLK9
+Text Label 9500 7550 3    50   ~ 0
+BOT_SYNC9
+$EndSCHEMATC

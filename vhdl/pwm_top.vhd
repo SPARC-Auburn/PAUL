@@ -40,8 +40,8 @@ begin
 	tn4 <= pulldowns(63 downto 48);
 	tn5 <= pulldowns(79 downto 64);
 
-	ck0 : entity work.clk_wiz_v3_6 port map (clk_in, clk);
-
+	--ck0 : entity work.clk_wiz_v3_6 port map (clk_in, clk);
+	ck0 : entity work.clock_pll port map(clk_in, clk);
 	--todo: run serial clock through a BUFG. Not sure if that's done automatically
 
 	controller : entity work.pwm_controller

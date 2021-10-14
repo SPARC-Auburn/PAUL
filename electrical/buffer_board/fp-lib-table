@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name buffer_board)(type KiCad)(uri ${KIPRJMOD}/buffer_board.pretty)(options "")(descr ""))
+)
