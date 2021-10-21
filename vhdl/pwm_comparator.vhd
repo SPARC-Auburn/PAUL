@@ -24,7 +24,7 @@ end pwm_comparator;
 
 architecture Behave of pwm_comparator is
 	signal buf, setting                       : std_logic_vector(2*counter_width-1 downto 0) := (others => '0');
-	signal last_dclk, last_dlatch, last_count : std_logic                                 := '0';
+	--signal last_dclk, last_dlatch, last_count : std_logic                                 := '0';
 	signal output		                        : std_logic              						  := '0';
   
 	alias rise_value : std_logic_vector(counter_width-1 downto 0) is setting(counter_width-1 downto 0);		--Not sure how to do an unsigned alias of a std_logic_vector type
